@@ -11,10 +11,12 @@ import matplotlib.pyplot as plt
 from keras.models import load_model
 import keras.losses
 
-
-
 '''
-defnne loss function for regression ddddddss
+use pretrianed weight to train again: 
+more faster, slight improve.
+'''
+'''
+define loss function
 '''
 # root mean squared error (rmse) for regression
 def rmse(y_true, y_pred):
