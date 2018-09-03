@@ -1,0 +1,378 @@
+SignAndSymptomID,SignAndSymptomName_NL,SignAndSymptomName_US,Description_NL,Description_US,ProblemID,IsOther,Code,SignAndSymptomNameNeutral_NL,Order
+44,laag / geen inkomen,low/no income,,,3,False,1,gemiddeld / goed inkomen,1
+45,onverzekerde medische kosten,uninsured medical expenses,,,3,False,2,,2
+46,moeite met financieel management,difficulty with money management,,,3,False,3,,3
+47,kan alleen noodzakelijkheden aanschaffen,able to by only necessities,,,3,False,4,kan meer dan alleen noodzakelijkheden aanschaffen,4
+48,moeite met aanschaffen noodzakelijkheden,difficulty buying necessities,,,3,False,5,,5
+49,overig,Other,,,3,True,6,,100
+50,vervuilde woonomgeving,solied living area,,,4,False,1,schone woonomgeving,1
+51,inadequate voedselopslag / afvalvoorziening,inadequate food storage/disposal,,,4,False,2,voldoende voedselopslag / afvalvoorziening,2
+52,insecten / knaagdieren,insect/rodents,,,4,False,3,,3
+53,stank,foul odor,,,4,False,4,,4
+54,inadequate  watervoorziening,inadequate water supply,,,4,False,5,voldoende watervoorziening,5
+55,inadequate rioolvoorziening,inadequate sewage disposal,,,4,False,6,,6
+56,inadequate voorzieningen voor de was ,inadequate laundry facilities,,,4,False,7,voldoende wasvoorziening,7
+57,allergenen,allergens,,,4,False,8,,8
+58,besmettelijke / verontreinigende middelen,infectious/contaminating agents,,,4,False,9,,9
+59,extreme hoeveelheid huisdieren,excessive pets,,,4,False,12,,10
+60,overig,Other,,,4,True,10,,100
+61,structureel ongezond / ongeschikt,structurally unsound,,,5,False,1,,1
+62,inadequate verwarming / koeling,inadequate heating/cooling,,,5,False,2,adequate verwarming,2
+63,steile / onveilige trappen,steep/unsafe stairs,,,5,False,3,,3
+64,inadequate / geblokkeerde in- en uitgangen,inadequate/obstructed exists/entries,,,5,False,4,adequate / doorgankelijk vrije ingangen / uitgangen,4
+65,rommelige leefruimte,cluttered living space,,,5,False,5,opgegeruimde leefruimte,5
+66,onveilige opslag van gevaarlijke objecten / stoffen,unsafe storage of dangerous objects/substances,,,5,False,6,veilige opslag van gevaarlijke objecten / substanties,6
+67,onveilige matten / tapijtjes,unsafe mats/throw rugs,,,5,False,7,,7
+68,inadequate veiligheidsapparatuur,inadequate safety devices,,,5,False,8,adequate veiligheidsapparatuur,8
+69,verf aanwezig, op lood gebaseerd,presence of lead-based paint,,,5,False,9,,9
+70,onveilige apparatuur / installaties,unsafe applianced/equipment,,,5,False,10,veilige apparatuur / installaties,10
+71,inadequate / overvolle leefruimte,inadequate/crowded living space,,,5,False,11,adequate leefruimte,11
+72,blootliggende bedrading,exposed wiring,,,5,False,14,,12
+73,structurele obstakels,structural barriers,,,5,False,15,,13
+74,dakloos,homeless,,,5,False,12,,14
+75,overig,Other,,,5,True,13,,100
+76,hoog criminaliteitscijfer,high crime rate,,,6,False,1,,1
+77,grote vervuiling,high pollution level,,,6,False,2,,2
+78,ongecontroleerde / gevaarlijke / infectie verspreidende dieren,uncontrolled/dangrous/infected animals,,,6,False,3,,3
+79,inadequate / onveilige speel- en sportterreinen,inadequate/unsafe play/exercise areas,,,6,False,5,adequate / veilige speel- sportterreinen,4
+80,inadequate ruimte / middelen om gezondheid te borgen ,inadequate space/resources to foster health,,,6,False,7,adequate ruimte / middelen om gezondheid te borgen ,5
+81,bedreigingen / meldingen van geweld,threats/reports of violence,,,6,False,8,,6
+82,fysieke gevaren,physical hazards,,,6,False,4,,7
+83,voertuig / verkeersgevaar,vehicle/traffic hazards,,,6,False,9,,8
+84,chemische gevaren ,chemical hazards,,,6,False,10,,9
+85,stralingsgevaar,radiological hazards,,,6,False,11,,10
+86,overig,Other,,,6,True,6,,100
+87,onbekend met opties / procedures om diensten te verkrijgen,unfailiar with options/procedures for obtaining services,,,7,False,1,bekend met mogelijkheden / procedures om diensten te verkrijgen,1
+88,moeite met het begrijpen van rollen / regelgeving van dienstverleners,difficulty understanding roles/requlations of service providers,,,7,False,2,normaal / goed begrijpen van rollen / regelgeving van dienstverleners,2
+89,niet in staat zorgen kenbaar te maken aan dienstverlener,unable to communicate concenrs to provider,,,7,False,3,in staat zorgen kenbaar te maken aan dienstverlener,3
+90,inadequate / niet beschikbare middelen,inadequate/unavailable resources,,,7,False,6,adequate / beschikbare middelen,6
+91,taalbarrière,language barrier,,,7,False,5,,5
+92,culturele barrière,cultural barrier,,,7,False,8,geen culturele barrière,7
+93,scholingsbarrière,educational barrier,,,7,False,9,,8
+94,vervoersprobleem,transportation barrier,,,7,False,10,,9
+95,beperkte toegang tot zorg / diensten / goederen,limited acces to care/services/goods,,,7,False,11,normale / goede toegang tot zorg / diensten / goederen,10
+96,niet in staat te gebruiken / heeft inadequate communicatie middelen/apparatuur,unable to use/has inadequate communication devices/equipment,,,7,False,12,in staat tot gebruiken van / beschikken over communicatie middelen/apparatuur,11
+97,overig,Other,,,8,True,4,,100
+98,beperkt sociaal contact,limited social contact,,,8,False,1,meer dan beperkt sociaal contact,1
+99,gebruikt zorg- / hulpverlener als sociaal contact,uses health care provider for social contact,,,8,False,2,,2
+100,minimale stimulans buitenshuis / vrijetijdsactiviteiten,minimal outside stimulation/leisure time activities,,,8,False,3,meer dan minimale buitenshuis stimulans / vrijetijdsactiviteiten,3
+102,onvrijwillige omkering van rol,involuntary role reversal,,,43,False,6,,1
+103,neemt nieuwe rol aan,assumes new role,,,43,False,3,,2
+104,verliest vorige rol,loses previous role,,,43,False,4,,3
+105,overig,Other,,,43,True,5,,100
+115,geeft uiting aan zorgen op spiritueel gebied,expresses spiritual concenrns,,,10,False,1,,1
+116,verstoorde / onderbroken spirituele rituelen,disrupted spiritual rituals,,,10,False,2,normale, blijvende spirituele rituelen,2
+117,verstoord / onderbroken spiritueel vertrouwen,disrupted spiritual trust,,,10,False,3,normaal / goed, blijvend spiritueel vertrouwen,3
+118,conflicterende spirituele overtuigingen en medische behandeling / zorg  ,conflicting spiritual beliefs and medical/health care regimen,,,10,False,4,,4
+119,overig,Other,,,10,True,5,,100
+120,herkent rouwstadia / helingsproces niet,fails to recognize stages of grief/process of healing,,,12,False,1,,1
+121,moeite met omgaan met rouw en verdriet,difficulty coping with grief responses,,,12,False,2,,2
+122,moeite met uitdrukken van rouw en verdriet,difficulty expressing grief responses,,,12,False,3,,3
+123,conflicterende rouwstadia tussen individuen / families,conflicting stages of grief among individuals/families,,,12,False,4,,4
+124,overig,Other,,,12,True,5,,100
+125,triestheid / wanhoop / verminderde eigenwaarde,sadness/hopelessness/decreased self-esteem,,,13,False,1,opgewektheid / hoop / normale eigenwaarde,1
+126,bezorgdheid / ongedefinieerde angst,apprehension/undefined fear,,,13,False,2,,2
+127,verlies van interesse / betrokkenheid bij activiteiten / zelfzorg,loss of interest/involvement in activities/self-care,,,13,False,3,interesse / betrokkenheid bij activiteiten / zelfzorg,3
+128,Beperkte tot fragmentarische aandacht / focus,narrowed to scattered attention/focus,,,13,False,13,normale / goede aandacht / focus,4
+129,sterk verminderde uitdrukking van emoties,flat affect,,,13,False,6,,5
+130,geïrriteerd / geagiteerd / agressief,irritable/agitated/aggressive,,,13,False,14,,6
+131,doelloosheid / dwangmatige activiteit,purposeless/compulsive activity,,,13,False,15,,7
+132,moeite met het omgaan met woede,difficulty managing anger,,,13,False,16,normaal / goed omgaan met woede,9
+133,moeite met het omgaan met stress,difficulty managing stress,,,13,False,9,normaal / goed omgaan met stress,8
+134,somatische klachten / vermoeidheid,somatic complaints/fatique,,,13,False,10,,10
+135,wanen,delusions,,,13,False,17,,11
+136,hallucinaties / illusies,hallucinations/illusions,,,13,False,18,,12
+137,geeft uiting aan (zelf)moord gedachten,expresses suidical/homicidal thoughts,,,13,False,19,,13
+138,poging tot (zelf)moord,attempts suicide/homicide,,,13,False,20,,15
+139,zelfbeschadiging,self-mutilation,,,13,False,21,,15
+140,snel wisselende gemoedstoestand,mood swings,,,13,False,22,,16
+141,flash-backs,Flash-backs,,,13,False,23,,17
+142,overig,Other,,,13,True,12,overig,100
+143,moeite met bieden van fysieke zorg / veiligheid,difficulty providing phycical care/safety,,,14,False,1,normaal / goed bieden van fysieke zorg / veiligheid,1
+145,moeite met bieden van leerervaringen en activiteiten,difficulty providing cognitive learning experiences and activities,,,14,False,3,normaal / goed bieden van leerervaringen en activiteiten,3
+146,moeite met bieden van preventieve en therapeutische gezondheidszorg,difficulty providing preventive and therapeutic health care,,,14,False,4,normaal / goed bieden van preventieve en therapeutische gezondheidszorg,4
+147,verwachtingen niet conform stadium groei en ontwikkeling,expectations incongruent with stage of growth and development,,,14,False,5,verwachtingen conform stadium groei en ontwikkeling,5
+148,ontevreden over / moeite met verantwoordelijkheden,dissatisfaction/diffuculty with responsibilities,,,14,False,6,tevreden over / adequaat omgaan met verantwoordelijkheden,6
+149,moeite met interpreteren van of reageren op verbale / non-verbale communicatie,difficulty interpreting or responding to verbal/nonverbal communication,,,14,False,10,normaal / goed interpreteren van of reageren op verbale / non-verbale communicatie,7
+150,nalatig,neglectful,,,14,False,7,,8
+151,fysiek / emotioneel misbruik, verbaal geweld,abusive,,,14,False,8,,9
+152,overig,Other,,,14,True,9,,100
+153,mist adequate fysieke zorg,lacks adequate psysical care,,,15,False,1,,1
+154,mist emotionele geborgenheid / steun,lacks emotional nurturance/support,,,15,False,2,,2
+155,mist juiste stimulans / cognitieve ervaringen,lacks appropriate stimulation/cognitive experiences,,,15,False,3,,3
+156,ongepast alleen gelaten,inappropriately left alone,,,15,False,4,,4
+157,mist noodzakelijke supervisie,lacks necessary supervision,,,15,False,5,,5
+158,inadequate / verlate medische zorg,inadequate/delayed medical care,,,15,False,6,,6
+159,overig,Other,,,15,True,7,,100
+160,harde / extreme bestraffing, discipline aanleren,harsh/excessive discipline,,,16,False,1,,1
+161,striemen / zwellingen / brandwonden / overig letsel,welts/bruises/burns/other injuries,,,16,False,2,,2
+162,twijfelachtige verklaring van letsel,questionable explanation of injury,,,16,False,3,,3
+163,verbaal aangevallen,attacked verbally,,,16,False,4,,4
+164,angstig / extreme waakzaamheid,fearful/hypervigilant behavior,,,16,False,5,,5
+165,gewelddadige omgeving,violent environment,,,16,False,6,,6
+166,voortdurende negatieve boodschappen,consistent negative messages,,,16,False,7,,7
+167,aangerand,assaulted sexually,,,16,False,8,,8
+168,overig,Other,,,16,True,9,,100
+169,afwijkende uitslagen van de ontwikkeling-screening-test,abnormal results of developmental screeningtest,,,17,False,1,normale resultaten van de ontwikkeling screening test,1
+170,afwijkend gewicht / lengte / omvang van hoofd in vergelijking met standaardwaarden voor groei/leeftijd,abnormal weight/height/head circumference in relation to growth/age standards,,,17,False,2,normaal gewicht / lengte / omvang van hoofd in vergelijking met standaardwaarden voor groei/leeftijd,2
+171,niet leeftijdconform gedrag,age-inappropriate behaviour,,,17,False,3,leeftijdconform gedrag,3
+172,inadequate resultaten / voortgang van ontwikkelingstaken,inadequate achievement/maintenance of developmental tasks,,,17,False,4,voldoende resultaten / voortgang van ontwikkelingstaken,4
+173,overig,Other,,,17,True,5,,100
+174,moeite met horen normale spreektonen,diffulculty hearing normal speech tones,,,18,False,1,,1
+175,moeite met verstaan in grotere groepen,diffulculty hearing speech in large group settings,,,18,False,5, ,2
+176,moeite met horen hoogfrequente geluiden,diffulculty hearing high frequency sounds,,,18,False,6,,3
+177,geen / afwijkende reactie op geluid,absent/abnormal response to sound,,,18,False,2,aanwezige / normale reactie op geluid,4
+178,afwijkende uitslagen van gehoortest,abnormal results of hearing screening test,,,18,False,3,normale resultaten gehoortest,5
+179,overig,Other,,,18,True,4,overig,100
+180,moeite met zien van kleine letters,diffulculty seeing small print/calibrations,,,19,False,1,,1
+181,moeite met zien van objecten veraf,diffulculty seeing distant object,,,19,False,2,,2
+182,moeite met zien van objecten dichtbij,diffulculty seeing close objects,,,19,False,3,,3
+183,geen / afwijkende reactie op visuele stimuli,absent/abnormal response to visual stimuli,,,19,False,4,,4
+184,afwijkende uitslagen van gezichtsvermogen test,abnormal results of vision screening test,,,19,False,5,normale resultaten van gezichtsvermogen test,5
+185,loensen / knipperen / tranende ogen / wazig zicht,squinting/blinking/tearing/blurring,,,19,False,6,,6
+186,vlekken / flitsen,floaters/flashes,,,19,False,9,,7
+187,moeite met onderscheiden van kleuren,difficulty differentiating colors,,,19,False,7,,8
+188,overig,Other,,,19,True,8,,100
+189,geen / afwijkend vermogen tot spreken / vocaliseren,absent/abnormal ability to speak/vocalize,,,20,False,1,aanweig / normaal vermogen tot spreken / vocaliseren,1
+190,geen / afwijkend vermogen tot begrijpen,absent/abnormal ability to understand,,,20,False,2,aanwezig / normaal vermogen tot begrijpen,2
+191,mist alternatieve vaardigheden / gebaren tot communiceren,lacks alternative communication skills/gestures,,,20,False,3,heeft alternatieve vaardigheden/gebaren tot communiceren,3
+192,onjuiste zinsstructuur,inappropriate sentence structure,,,20,False,4,juiste zinsstructuur,4
+193,beperkte uitspraak / duidelijkheid,limited enunciation/clarity,,,20,False,5,normale / goede uitspraak / duidelijkheid,5
+194,onjuist woordgebruik,inappropriate word usage,,,20,False,6,juist woordgebruik,6
+195,overig,Other,,,20,True,7,,100
+196,ontbrekende / gebroken / slechtgevormde tanden,missing/broken/malformed teeth,,,21,False,1,,1
+197,cariës (gaatjes),caries,,,21,False,2,,2
+198,overmatig tandsteen,excess tartar,,,21,False,3,,3
+199,pijnlijk / gezwollen / bloedend tandvlees,sore/swollen/bleeding gums,,,21,False,4,,4
+200,malocclusie (slecht sluitend boven- en ondergebit),malocclusion,,,21,False,5,,5
+201,slecht passend / ontbrekend kunstgebit,ill-fitting/missing dentures,,,21,False,6,,6
+202,gevoelig voor warmte of koude,sensitivity to hot or cold,,,21,False,7,,7
+203,overig,Other,,,21,True,8,,100
+204,verminderd beoordelingsvermogen,diminished judgment,,,22,False,1,normaal / goed beoordelingsvermogen,1
+205,desoriëntatie met betrekking tot tijd / plaats / persoon,disoriented to time/place/person,,,22,False,2,normale / goede oriëntatie met betrekking tot tijd / plaats / persoon,2
+206,beperkt korte termijngeheugen,limited recall of recent events,,,22,False,3,normaal / goed korte termijn geheugen,3
+207,beperkt lange termijn geheugen,limited recall of long past events,,,22,False,4,normaal / goed lange termijn geheugen,4
+208,beperkt vermogen tot rekenen / volgorde aanbrengen,limited calculation /sequencing skills,,,22,False,5,normaal / goed vermogen tot rekenen / volgorde aanbrengen,5
+209,beperkt concentratievermogen,limited concentration,,,22,False,6,normaal / goed concentratievermogen,6
+210,beperkt vermogen tot redeneren / abstract denken,limited reasoning/abstract thinking ability,,,22,False,7,normaal / goed vermogen tot redeneren / abstract denken,7
+211,impulsiviteit,impulsiveness,,,22,False,8,,8
+212,herhaald taalgebruik / gedrag,repetitious language/behavior,,,22,False,9,,9
+213,dwalen,wanders,,,22,False,11,,10
+214,overig,Other,,,22,True,10,,100
+215,toont / noemt ongemak / pijn,expresses discomfort/pain,,,23,False,1,,1
+216,verhoogde pols / ademhaling / bloeddruk,elevated pulse/respirations/blood pressure,,,23,False,2, ,2
+217,compenserende bewegingen / oplettend,compensated movement/guarding,,,23,False,3,,3
+218,rusteloos gedrag,restless behaviour,,,23,False,4,,4
+219,grimassen,facial grimaces,,,23,False,5,,5
+220,bleekheid / perspiratie (vochtige huid),pallor/perspiration,,,23,False,6,,6
+221,overig,Other,,,23,True,7,,100
+222,apathisch,lethargic,,,24,False,1,aanwezigheid van emotie, motivatie of enthousiasme,1
+223,gevoelloos,stupurous,,,24,False,2,sensibiliteit voor prikkels aanwezig,2
+224,niet reagerend,unresponsive,,,24,False,3,reageert op prikkels,3
+225,comateus,comatose,,,24,False,4,langdurig bij bewustzijn,4
+226,overig,Other,,,24,True,5,,100
+227,wond / decubitus ,lesion/pressure ulcer,,,25,False,1,,1
+228,huidirritatie / huiduitslag,rash,,,25,False,2,,2
+229,overmatig droog,excessively dry,,,25,False,3,,3
+230,overmatig vettig,excessively oily,,,25,False,4,,4
+231,ontsteking,inflammation,,,25,False,5,,5
+232,jeuk,pruritus,,,25,False,6,,6
+233,wondexsudaat / vochtafscheiding,drainage,,,25,False,7,,7
+234,bloeduitstorting / blauwe plekken,bruising,,,25,False,8,,8
+235,hypertrofie van de nagels,hypertrophy of nails,,,25,False,9,,9
+236,vertraagde genezing incisie(-s),delayed incisional healing,,,25,False,11,,10
+238,beperkte bewegingsmogelijkheid,limited range of motion,,,26,False,1,normale / goede bewegingsmogelijkheid,1
+239,afgenomen spierkracht,decreased muscle strenght,,,26,False,2,normaal / goede spierkracht,2
+240,verminderde coördinatie,decreased coordination,,,26,False,3,normale / goede coördinatie,3
+241,verminderde spierspanning,decreased muscle tone,,,26,False,4,,4
+242,toegenomen spierspanning,increased muscle tone,,,26,False,5,,5
+243,afgenomen gevoel,decreased sensation,,,26,False,6,,6
+244,toegenomen gevoel,increased sensation,,,26,False,7,,7
+245,afgenomen evenwicht,decreased balance,,,26,False,8,normaal / goed evenwicht,8
+246,afwijkend gangpatroon / stoornis in het verplaatsen,gait/ambilation disturbance,,,26,False,9,,9
+247,moeite met transfers,difficulty transferring,,,26,False,13,,10
+248,breuken,fractures,,,26,False,14,,11
+249,tremoren / plotselinge aanvallen,tremors/seizures,,,26,False,11,,12
+250,problemen met temperatuurhuishouding,difficulty with thermoregulation,,,26,False,15,,13
+251,overig,Other,,,26,True,12,Overig,100
+252,afwijkende ademhalingspatronen,abnormal breath patterns,,,27,False,1,normale ademhalingspatronen,1
+253,niet in staat zelfstandig te ademen,unable to breath independently,,,27,False,2,  ,2
+254,cyanose (blauw verkleurde huid t.g.v. zuurstoftekort),cyanosis,,,27,False,5,,5
+255,afwijkend sputum,abnormal sputum,,,27,False,6,normaal sputum,6
+256,ademhalen met bijgeluiden,noisy respirations,,,27,False,7,ademhalen zonder bijgeluiden,7
+257,rhinorrhea / neusverstopping,rhinorrhea/nasal congestion,,,27,False,8,normale doorgang neuswegen,8
+258,afwijkende geluiden bij ademhalen,abnormal breath sounds,,,27,False,9,normale geluiden bij ademhalen,9
+259,afwijkende uitslagen lab.onderzoek naar ademhalingsproces,abnormal respiratory laboratory results,,,27,False,11,normale / goede resultaten lab.onderzoek naar ademhalingsproces,10
+260,overig,Other,,,27,True,10,,100
+261,oedeem,edema,,,28,False,1,,1
+262,kramp / pijn in armen / benen,cramping/pain of extremities,,,28,False,2,,2
+263,verlaagde pols,decreased pulses,,,28,False,3,,3
+264,verkleuring van huid / cyanose,discoloration of skin/cyanosis,,,28,False,4,normale kleur huid i.r.t. zuurstofopname,4
+265,temperatuursverandering in aangedaan gebied,temperature change in affected area,,,28,False,5,,5
+266,spataderen,varicosities,,,28,False,6,,6
+267,syncopale episodes (flauwvallen) / duizeligheid,syncopal episodes (fainting)/dizziness,,,28,False,7,,7
+268,afwijkende bloeddruk waarden,abnormal  blood pressure reading,,,28,False,8,normale bloeddrukwaarden,8
+269,zwakke pols,pulse deficit,,,28,False,9,,9
+270,onregelmatige hartslag,irregular heart rate,,,28,False,10,regelmatige hartslag,10
+271,extreem snelle hartslag,excessively rapid heart rate,,,28,False,11,,11
+272,extreem lage hartslag,excessively slow heart rate,,,28,False,12,,12
+273,anginale pijn,anginal pain,,,28,False,13,,13
+274,afwijkende hartgeluiden / ruis,abnormal hearts sounds/murmurs,,,28,False,14,normale hartgeluiden / ruis,14
+275,afwijkende stolling,abnormal clotting,,,28,False,16,normale stolling,15
+276,afwijkende laboratoriumuitslagen hartonderzoek,abnormal cardiac laboratory results,,,28,False,17,normale laboratoriumuitslagen hartonderzoek,16
+277,overig,Other,,,28,True,15,,100
+278,misselijkheid / overgeven,nausea/vomiting,,,29,False,1,,1
+279,moeite met / niet kunnen kauwen / slikken / verteren,difficulty/inability to chew/swallow/digest,,,29,False,2,,2
+280,indigestie,indigestion,,,29,False,3,,3
+281,reflux,reflux,,,29,False,4,,4
+282,anorexia,anorexia,,,29,False,5,,5
+283,anemie,anemia,,,29,False,6,,6
+284,ascites (ophoping vocht in buikholte),ascites,,,29,False,7,,7
+285,overig,Other,,,29,True,12,,100
+298,brandend / pijnlijk gevoel bij urineren,burning/painful urination,,,30,False,1,,1
+299,urine incontinentie,incontinent of urine,,,30,False,2,continent voor urine,2
+300,drang / frequentie,urgency/frequency,,,30,False,3,,3
+301,moeite met op gang brengen urineren,difficulty initiating urination,,,30,False,4,,4
+302,moeite met legen van blaas,difficulty emtying bladder,,,30,False,5,,5
+303,afwijkende hoeveelheid,abnormal amount,,,30,False,6,normale hoeveelheid,6
+304,hematurie (bloed) / abnormale kleur,hermaturia/abnormal color,,,30,False,7,normale kleur,7
+305,nachtelijk urineren,nocturia,,,30,False,8,,8
+306,afwijkende uitslagen urine onderzoek,abnormal urinary laboratory results,,,30,False,9,normale uitslagen urine onderzoek,9
+307,overig,Other,,,30,True,10,overig,100
+308,afwijkende afscheiding,abnormal discharge,,,31,False,1,normale afscheiding,1
+309,afwijkend menstruatiepatroon,abnormal menstual pattern,,,31,False,2,normaal menstruatiepatroon,2
+310,moeite met het omgaan met menopauze / andropauze,diffuculty managing menopause/andropauze,,,31,False,3,,3
+311,abnormale knobbels / zwellingen / gevoeligheid van geslachtsorganen of borsten,abnormal lums/swelling/tenderness of genital organs or breasts,,,31,False,4,,4
+312,pijn tijdens of na geslachtsgemeenschap,pain during or after sexual intercourse,,,31,False,5,,5
+313,onvruchtbaarheid,infertility,,,31,False,6,,6
+314,impotentie,impotency,,,31,False,7,,7
+315,overig,Other,,,31,True,8,overig,100
+316,moeite met binding ongeboren baby,difficulty bonding with unborn baby,moeite met hechting met ongeboren baby,,32,False,1,normale / goede binding met ongeboren baby,1
+317,moeite met omgaan met veranderend lichaam,difficulty coping with body changes,,,32,False,2,normaal / goed omgaan met veranderend lichaam,2
+318,moeite met prenatale oefeningen / rust / dieet / gedrag,difficulty with prenatal exercise/rest/diet/behaviors,,,32,False,3,,3
+319,bang voor bevalling,fears delivery procedure,,,32,False,4,,4
+320,prenatale complicaties / voortijdige weeën,prenatal complications/preterm labor,,,32,False,5,,5
+321,inadequate sociale ondersteuning,inadequate social support,,,32,False,6,adequate sociale ondersteuning,6
+322,overig,Other,,,32,True,7,,100
+323,moeite met borstvoeding,difficulty breast-feeding,,,33,False,1,,1
+324,moeite met het omgaan met postnatale veranderingen,difficylty coping with postpartum changes,,,33,False,2,,2
+325,moeite met postnatale oefeningen / rust / dieet / gedrag,difficulty with postpartu exercise/rest/diet/behavior,,,33,False,3,,3
+326,abnormale bloeding / vaginale afscheiding,abnormal bleeding/vaginal discharge,,,33,False,4,,4
+327,postnatale complicaties,postpartum complications,,,33,False,5,,5
+328,abnormale depressieve gevoelens,abonormal depressed feelings,,,33,False,6,,6
+329,overig,Other,,,33,True,7,,100
+330,infectie (besmetting met micro-organismen),infection,,,34,False,1,,1
+331,infestatie (besmetting met dierlijke parasieten),infestation,,,34,False,2,,2
+332,koorts,fever,,,34,False,3,,3
+333,biologische gevaren (organismen die ziekte kunnen veroorzaken),biological hazerds,,,34,False,4,,4
+334,positieve screening / kweek / laboratorium uitslagen,positive screening/culture/laboratory results,,,34,False,5,negatieve screening / kweek / laboratorium uitslagen,5
+335,inadequate middelen / beleid om besmetting te voorkomen,inadequate supplies/equipment/policies to prevent transmission,,,34,False,6,adequate middelen / beleid om besmetting te voorkomen,6
+336,volgt beleid infectieziekte-beheersing niet op ,does not follow infection control regimen,,,34,False,7,volgt beleid infectieziekte-bestrijding op,7
+337,inadequate immuniteit,inadequate immunity,,,34,False,8,adequate immuniteit,8
+338,overig,Other,,,34,True,9,,100
+339,overgewicht: volwassene BMI = 25,0; kind BMI = 95e percentiel,overweight: adult BMI 25.0 or more; child BMI 95th percentile or more,,,35,False,12,,1
+340,ondergewicht: volwassene o.a. BMI = 18,5; kind BMI = 5e percentiel ,underweight: adult BMI 18,5 or less; child BMI 5th percentile or less,,,35,False,13,,2
+341,beschikt niet over vastgestelde standaard voor dagelijkse inname calorieën en vocht,lacks established standards for daily caloric/fluid intake,,,35,False,3,beschikt over vastgestelde standaard voor dagelijkse inname calorieën en vocht,3
+342,overschrijdt vastgestelde standaard voor dagelijkse inname calorieën en vocht,exceeds established standards for daily caloric/fluid intake,,,35,False,4,,4
+343,onjuist voedingsschema voor leeftijd,inpropper feeding schedule for age,,,35,False,6,juist voegingsschema voor leeftijd,6
+344,geen uitgebalanceerd dieet,unbalanced diet,,,35,False,5,uitgebalanceerd dieet,5
+345,onverklaarbaar / progressief gewichtsverlies,unexplained/progrssive weight loss,,,35,False,8,,8
+346,niet in staat voedsel te verkrijgen / bereiden,unable to obtain / prepare food,,,35,False,14,in staat voedsel te verkrijgen / bereiden,9
+347,hypoglycemie (te lage bloedglucosespiegel),Hypoglycemia,,,35,False,9,,10
+348,hyperglycemie (te hoge bloedglucosespiegel),Hyperglycemia,,,35,False,10,,11
+349,overig,Other,,,35,True,11,,100
+350,slaap / rustpatroon verstoort familie,sleep/rest pattern disrupts family,,,36,False,1,,1
+351,wordt vaak wakker tijdens de nacht ,frequently wakes during night,,,36,False,2,,2
+352,slaapwandelen,sleepwalking,,,36,False,3,,3
+353,slapeloosheid,insomnia,,,36,False,4,,4
+354,nachtmerries,nightmares,,,36,False,5,,5
+355,onvoldoende slaap / rust voor de leeftijd / fysieke conditie,insufficient sleep/rest for age/physical condition,,,36,False,6,voldoende slaap/rust voor de leeftijd / fysieke conditie,6
+356,slaap apneu,sleep apnea,,,36,False,8,,7
+357,snurken,snoring,,,36,False,9,,8
+358,overig,Other,,,36,True,7,,100
+359,zittende levensstijl, weinig beweging,sedentary life style,,,37,False,1,,1
+360,inadequate / inconsistente bewegingsgewoonte,inadequate/inconsistent excercise routine,,,37,False,2,adequate  / consistente gewoonte om te oefenen / bewegen,2
+361,soort / hoeveelheid beweging niet passend bij leeftijd / fysieke conditie,inappropriate type/amount of excercise for age/physical condition,,,37,False,3,soort / hoeveelheid beweging passend bij leeftijd / fysieke conditie,3
+362,overig,Other,,,37,True,4,overig,100
+363,moeite met het wassen van kleding,difficulty laudering clothing,,,38,False,1,normaal / goed kunnen wassen van kleding,1
+364,moeite met douchen / baden,difficulty with bathing,,,38,False,2,normaal / goed kunnen douchen / baden,2
+365,moeite met toilet aangelegenheden,difficulty with toileting activities,,,38,False,7,,3
+366,moeite met aankleden, onderlichaam,difficulty dressing lower body,,,38,False,8,normaal / goed kunnen aankleden, onderlichaam,4
+367,moeite met aankleden, bovenlichaam,difficulty dressing upper body,,,38,False,9,normaal / goed kunnen aankleden, bovenlichaam,5
+368,onprettige lichaamsgeur,foul body odor,,,38,False,3,,6
+369,moeite met wassen / kammen van het haar,difficulty shampooing/combing hair,,,38,False,4,normaal / goed kunnen wassen / kammen van het haar,7
+370,moeite met poetsen / flossen / mondhygiëne,difficulty brushing/flossing/mouth care,,,38,False,5,normaal / goed kunnen poetsen / flossen / mondhygiëne,8
+371,wil niet / kan niet / vergeet persoonlijke zorg-activiteiten af te ronden,unwilling/unable/forgets to complete personal care activities,,,38,False,10,,9
+372,overig,Other,,,38,True,6,,100
+373,misbruik van medicijnen, vrij verkrijgbaar / op recept,abuses over-the-counter/prescription medications,,,39,False,8,,1
+374,gebruikt ‘straat’ / recreatieve drugs,uses "street"-recreational drugs,,,39,False,9,,2
+375,alcoholmisbruik,abuses alcohol,,,39,False,2,,3
+376,rookt / gebruikt tabak producten,smokes/uses tobacco products,,,39,False,3,,4
+377,moeite met het uitvoeren van normale routines,difficulty performing normal routines,,,39,False,4,,5
+378,stoornissen in reflexen,reflex diturbances,,,39,False,5,,6
+379,gedragsveranderingen,behavior change,,,39,False,6,,7
+380,blootstelling aan sigaret- / sigaarrook,exposure to cigarette/cigar smoke,,,39,False,10,,8
+381,koopt / verkoopt illegale middelen,buys/sells illigal substances,,,39,False,11,,9
+382,overig,Other,,,39,True,7,,100
+383,verkeerde / onvoldoende kennis over anticonceptiemethoden,inappropriate/insufficient knowledge about family planning methods,,,40,False,1,juiste / voldoende kennis over anticonceptiemethoden,1
+384,verkeerde / onvoldoende kennis over préconceptie gezondheidsmaatregelen,inappropriate/insufficient knowledge about preconception healyh practices,,,40,False,5,juiste  / voldoende kennis over préconceptie gezondheidsmaatregelen,2
+385,onzorgvuldig / inconsistent gebruik van anticonceptiemethoden,inaccurate/inconsistent use of family planning methids,,,40,False,2,zorgvuldig / consistent gebruik van anticonceptiemethoden,3
+386,ontevreden over huidige anticonceptiemethode,dissatisfied with present familty planning methid,,,40,False,3,tevreden met huidige anticonceptiemethode,4
+387,angst voor reacties v. anderen m.b.t. keuze gezinsplanning,fears others' reactions regarding family planning choices,,,40,False,6,,5
+388,moeite met verkrijgen anticonceptiemethoden,difficulty obtaining family planning methods,,,40,False,7,kan anticonceptiemiddelen verkrijgen,6
+389,overig,Other,,,40,True,8,,100
+390,verzuimt verkrijgen van routinematige / preventieve gezondheidszorg,failt to obtain routine/preventive health care,,,41,False,1,verkrijgt routinematige / preventieve gezondheidszorg,1
+391,verzuimt hulp te zoeken voor symptomen die beoordeling / behandelding vragen,failt to seek care for symptoms requiring evaluation/treatment,,,41,False,2,zoekt hulp voor symptomen die beoordeling / behandelding vragen,2
+392,verzuimt m.b.t. vervolgafspraak op verzoek van zorgverlener,failt to return as requested to health care provider,,,41,False,3,maakt vervolgafspraak op verzoek van zorgverlener,3
+393,niet in staat meervoudige afspraken / behandelplannen te coördineren,inability to coordinate multiple appointments/treatmen plans,,,41,False,4,in staat meervoudige afspraken / behandelplannen te coördineren,4
+394,inconsistente gezondheidszorg,inconsistent source of health care,,,41,False,5,consistente bron van gezondheidszorg,5
+395,niet adequate / beschikbare gezondheidszorg,inadequate source of health care,,,41,False,8,adequate bron van gezondheidszorg,6
+396,inadequaat behandelplan,inadequate treatment plan,,,41,False,9,adequaat behandelplan,7
+397,overig,Other,,,41,True,7,,100
+398,houdt zich niet aan aanbevolen dosering / schema,does not follow recommended dosage/schedule,,,42,False,1,houdt zich aan aanbevolen dosering / schema,1
+399,aanwijzing voor bijwerkingen / nadelige reacties,evidence of side effects/adverse reactions,,,42,False,2,,2
+400,inadequaat systeem voor medicijn gebruik,inadequate system for taking medications,,,42,False,3,adequaat systeem voor medicijngebruik,3
+401,incorrecte opslag van medicatie,imporper storage of medication,,,42,False,4,correcte opslag van medicatie,4
+402,verzuimt verkrijgen van herhaalmedicatie,fails to obtain refills appropriately,,,42,False,5,verkrijgt herhaalmedicatie,5
+403,verzuimt verkrijgen van immunisatie,fails to obtain immunizations,,,42,False,6,verkrijgt immunisatie,6
+404,inadequaat medicatiebeleid,inadequate medicaion regimen,,,42,False,8,adequaat medicatiebeleid,7
+405,niet in staat medicatie in te nemen zonder hulp,unable to take medications without help,,,42,False,9,in staat medicatie in te nemen zonder hulp,8
+406,overig,Other,,,42,True,7,,100
+407,aanwezigheid van schimmel,Presence of mold,,,4,False,11,,11
+408,ontevreden over diensten,dessatisfaction with services,,,7,False,4,tevreden over diensten,4
+411,hoesten,cough,,,27,False,3,,3
+412,niet in staat zelfstandig te hoesten / op te geven,unable to cough/expectorate independently,,,27,False,4,in staat zelfstandig te hoesten / op te geven,4
+413,moeite met aangaan / onderhouden van relaties,difficulty esthablising/maintaining relationships,,,9,False,1,normaal / goed aangaan / aanhouden van relaties,1
+414,minimale gedeelde activiteiten,minimal shared activities,,,9,False,2,meer dan minimaal gedeelde activiteiten,2
+415,onsamenhangende waarden / doelen / verwachtingen / schema's,inconruent values/goals/expectations/schedules,,,9,False,3,samenhangende waarden / doelen / verwachtingen / schema's,3
+416,inadequate interpersoonlijke communicatieve vaardigheden,inadequate interpersonal communications skills,,,9,False,4,adequate interpersoonlijke communicatieve vaardigheden,4
+417,langdurige, onopgeloste spanning,prolonged, unreveiled tension,,,9,False,5,,5
+418,ongepast wantrouwen / manipulatie / controle,inappropriate suspicion/manipulation/control,,,9,False,8,,6
+419,fysiek / emotioneel misbruik van partner,phycically/emotionally abusive to partner,,,9,False,9,fysiek / emotioneel steunend voor partner,7
+420,moeite met oplossen probleem zonder conflict  ,difficulty problem solving without conflict,,,9,False,10,normaal / goed oplossen van problemen zonder conflict,8
+421,overig,other,,,9,False,7,,100
+422,geelzucht / lever vergroting,jaundice/liver enlagement,,,29,False,8,,8
+423,verminderde huidspanning,decreased skin turgor,,,29,False,9,huidspanning,9
+424,gebarsten lippen / droge mond,cracked lips/dry mouth,,,29,False,10,,10
+425,elektrolytische onbalans (zuren, basen, zouten),electrolyte imbalance,,,29,False,11,,11
+426,afwijkende frequentie / consistentie van ontlasting,abnormal frequency/consistency of stool,,,47,False,1,normale frequentie / consistentie van stoelgang,1
+427,pijnlijke ontlasting,painful defecation,,,47,False,2,,2
+428,afgenomen darmgeluiden,decreased bowel sounds,,,47,False,3,,3
+429,bloed in ontlasting,blood in stools,,,47,False,4,,4
+430,abnormale kleur,abnormal color,,,47,False,5,normale kleur,5
+431,krampen / naar gevoel in buik,cramping/abdominal discomfort,,,47,False,6,,6
+432,incontinent voor ontlasting,incontinent of stool,,,47,False,7,continent voor ontlasting,7
+433,overig,other,,,47,False,8,,100
+434,moeite met herkennen van gevolgen van seksueel gedrag,difficulty recognizing consequences of sexual behaviour,,,46,False,1,normaal / goed herkennen gevolgen van seksueel gedrag,1
+435,moeite met bieden van emotionele geborgenheid,difficulty providing emotional nurturance,,,14,False,2,normaal / goed bieden van emotionele geborgenheid,2
+436,verwarring omtrent seksuele identiteit,sexual identify confusion,,,46,False,3,duidelijkheid omtrent seksuele identiteit,3
+437,verwarring omtrent seksuele waarden,sexual value confusion,,,46,False,4,duidelijkheid omtrent seksuele waarden,4
+438,ontevreden over seksuele relaties,dissatisfied with sexual relationships,,,46,False,5,tevredenheid over seksuele relaties,5
+439,onveilige seksuele handelingen,unsafe sexual practices,,,46,False,7,veilige seksuele handelingen,6
+440,opvallend seksueel gedrag / provocatie / lastigvallen,sexual acting out/provocative behaviors/harassment,,,46,False,8,,7
+441,seksueel misdrijf / aanranding,sexual perpetration/assault,,,46,False,9,,8
+442,overig,other,,,46,False,6,,100
+443,moeite met uiten van intimiteit,difficulty expressing intimacy,,,46,False,2,normaal / goed uiten van intimiteit,2
+444,overig,others,,,25,False,10,,100
+451,houdt zich niet aan het geadviseerde voedingsschema,does not follow recommended nutrition plan,,,35,False,7,,7
+452,overig,Other,,,7,True,13,,100
