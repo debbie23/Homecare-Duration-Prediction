@@ -8,20 +8,18 @@ All data are collected in year 2017.
 
 ## file structure
 
-plot: EDA. 
+Plot: EDA. 
 
 Scatter plot about all predictors and the response. 
-
 Distribution plot of the response. 
-
 Correlation matrix plot about the preprocessed data. 
 
-data: all data files. 
+Data: all data files. 
 
-pre-processing-R: using R to preprocess data
+Pre-processing-R: using R to preprocess data
 
-classification: files about predicting categorized care duration 
+Classification: files about predicting categorized care duration 
 
-regression: files about predicting continuous care duration
+Regression: files about predicting continuous care duration
 
-report
+Report
