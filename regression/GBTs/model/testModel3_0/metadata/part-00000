@@ -1,0 +1,1 @@
+{"class":"pyspark.ml.pipeline.PipelineModel","timestamp":1535610464093,"sparkVersion":"2.3.1","uid":"PipelineModel_4a0c914f813b223602b6","paramMap":{"stageUids":["VectorAssembler_4f60af3fc4b323b1c40d","VectorIndexer_4705bae67e33b3f602e5","CrossValidatorModel_47e6a0a75327d1a0cafc"],"language":"Python"}}
