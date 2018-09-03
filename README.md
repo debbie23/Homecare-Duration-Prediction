@@ -1,8 +1,8 @@
-#home-care duration prediction by machine learning 
+# home-care duration prediction by machine learning 
 
 This is machine learning proeject for predicting home-care duration. data are provided by ecare company. All data are collected in year 2017.
 
-##file structure
+## file structure
 
 plot: EDA. scatter plot about all predictors and the response. 
 Distribution plot of the response. 
