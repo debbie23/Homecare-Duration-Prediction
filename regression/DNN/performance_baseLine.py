@@ -59,4 +59,3 @@ df_base_line.plot.scatter(x='prediction', y='prediction_true_y', color='DarkGree
 plt.xlabel('prediction')
 plt.ylabel('home-care duration next week')
 plt.show()
-plt.savefig('baseLine_VS_DNN.png')
