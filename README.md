@@ -3,6 +3,7 @@
 This is machine learning proeject for predicting home-care duration. 
 
 Data are provided by ecare company. 
+Data are provided by buurtzorg company. 
 
 All data are collected in year 2017.
 
