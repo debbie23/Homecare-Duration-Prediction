@@ -1,0 +1,80 @@
+colName:Living_unit.Parental.home
+MAE_Living_unit.With.partner:[20.73271982709128, 4.0854009014752934, 5.026734604578865, 4.1236145902946255, 5.375037624672856]
+RMSE_Living_unit.With.partner:[31.683413655803086, 7.29500243187861, 9.209043939596013, 7.828165981777602, 9.884865158099537]
+R2Living_unit.With.partner:[0.9985304623314877, 0.9999220945806178, 0.9998758502417838, 0.9999102908299502, 0.9998569597414204]
+MAE_Living_unit.With.partner_average:[7.868701509622585]
+RMSE_Living_unit.With.partner_avergae:[13.180098233430972]
+R2Living_unit.With.partner_average:[0.999619131545052]
+MAE_Living_unit.With.partner_variance:41.62342845151311
+RMSE_Living_unit.With.partner_variance:86.45560925297477
+R2Living_unit.With.partner_variance:2.968455453807899e-07
+
+MAE_Living_unit.Single.person:[19.919149850633655, 4.121851716027941, 5.063783620875564, 4.188618368602481, 5.358833796470861]
+RMSE_Living_unit.Single.person:[30.308779460665036, 6.708333176061854, 8.713771159328353, 7.150702820318965, 8.954501115813814]
+R2Living_unit.Single.person:[0.9991669993069137, 0.9999591927136228, 0.9999311473328542, 0.9999536333278926, 0.9999272904833917]
+MAE_Living_unit.Single.person_average:[7.730447470522101]
+RMSE_Living_unit.Single.person_avergae:[12.367217546437605]
+R2Living_unit.Single.person_average:[0.999787652632935]
+MAE_Living_unit.Single.person_variance:37.373325984690716
+RMSE_Living_unit.Single.person_variance:81.22578921329662
+R2Living_unit.Single.person_variance:9.645511993347207e-08
+
+MAE_Living_unit.Unknown:[21.277596795556402, 4.56166736920546, 5.781288526103837, 4.810766938386598, 6.234977600901881]
+RMSE_Living_unit.Unknown:[34.83299658869218, 8.808958671165403, 12.558139553095737, 8.474864987240668, 10.98007398978478]
+R2Living_unit.Unknown:[0.9950954128200696, 0.9996863322064585, 0.999362512910403, 0.9997096737126049, 0.9995126608321538]
+MAE_Living_unit.Unknown_average:[8.533259446030835]
+RMSE_Living_unit.Unknown_avergae:[15.131006757995754]
+R2Living_unit.Unknown_average:[0.9986733184963381]
+MAE_Living_unit.Unknown_variance:40.98081439129103
+RMSE_Living_unit.Unknown_variance:99.2581614147418
+R2Living_unit.Unknown_variance:3.2162244873040656e-06
+
+MAE_Living_unit.Other.multi.person.household:[22.380508791535032, 4.6223051811279445, 6.271591247316988, 5.31353698422971, 7.327280877231203]
+RMSE_Living_unit.Other.multi.person.household:[28.925088522564003, 7.167301241840998, 9.61591537843856, 8.548627374336133, 11.536895898105858]
+R2Living_unit.Other.multi.person.household:[0.9976724062355683, 0.9998570878647415, 0.9997427596704987, 0.999796693826847, 0.9996297153241408]
+MAE_Living_unit.Other.multi.person.household_average:[9.183044616288177]
+RMSE_Living_unit.Other.multi.person.household_avergae:[13.158765683057108]
+R2Living_unit.Other.multi.person.household_average:[0.9993397325843592]
+MAE_Living_unit.Other.multi.person.household_variance:44.37338278836019
+RMSE_Living_unit.Other.multi.person.household_variance:64.18204142714481
+R2Living_unit.Other.multi.person.household_variance:7.005936076362381e-07
+
+MAE_Living_unit.Single.with.children:[23.117529550771106, 5.009745213012429, 5.806314289263589, 4.945187632576474, 6.543741737283148]
+RMSE_Living_unit.Single.with.children:[32.55827128039578, 8.172961478759872, 10.297989513453214, 9.722412676159392, 12.071050685704797]
+R2Living_unit.Single.with.children:[0.9967252781328217, 0.9997936470656712, 0.9996723903879706, 0.9997079885725997, 0.9995498659231155]
+MAE_Living_unit.Single.with.children_average:[9.084503684581348]
+RMSE_Living_unit.Single.with.children_avergae:[14.564537126894612]
+R2Living_unit.Single.with.children_average:[0.9990898340164357]
+MAE_Living_unit.Single.with.children_variance:49.57308118511421
+RMSE_Living_unit.Single.with.children_variance:82.49875608385423
+R2Living_unit.Single.with.children_variance:1.4039187342986342e-06
+
+MAE_Living_unit.Institution.with.residence:[13.188791482925868, 3.208965013441069, 3.600442942970582, 2.9392713013637435, 3.9435520783594007]
+RMSE_Living_unit.Institution.with.residence:[20.10454933450396, 4.752792910332022, 5.782167937969994, 4.736540794736905, 6.204807141212523]
+R2Living_unit.Institution.with.residence:[0.9940278834687617, 0.9996662376291837, 0.999506006776906, 0.9996685163189961, 0.999431152094859]
+MAE_Living_unit.Institution.with.residence_average:[5.3762045638121325]
+RMSE_Living_unit.Institution.with.residence_avergae:[8.31617162375108]
+R2Living_unit.Institution.with.residence_average:[0.9984599592577414]
+MAE_Living_unit.Institution.with.residence_variance:15.375581568230933
+RMSE_Living_unit.Institution.with.residence_variance:35.0712616872659
+R2Living_unit.Institution.with.residence_variance:4.91928888363945e-06
+
+MAE_Living_unit.With.partner.and.children:[22.85019918820456, 4.67380904913522, 5.802767623720605, 4.4618585616618285, 5.4282252582765125]
+RMSE_Living_unit.With.partner.and.children:[32.09342833306211, 25.097005609573685, 63.91459719283785, 13.335070251783616, 15.145206317590876]
+R2Living_unit.With.partner.and.children:[0.9979683827175332, 0.9987576227526369, 0.9919423242635051, 0.999649247892083, 0.9995475609710424]
+MAE_Living_unit.With.partner.and.children_average:[8.643371936199745]
+RMSE_Living_unit.With.partner.and.children_avergae:[29.91706154096962]
+R2Living_unit.With.partner.and.children_average:[0.9975730277193602]
+MAE_Living_unit.With.partner.and.children_variance:50.69652504094841
+RMSE_Living_unit.With.partner.and.children_variance:335.3944167701324
+R2Living_unit.With.partner.and.children_variance:8.294772828568355e-06
+
+MAE_Living_unit.Parental.home:[17.99624012211688, 4.000195591066449, 4.856164374078652, 3.6291553216669152, 5.628677667519052]
+RMSE_Living_unit.Parental.home:[26.87383740255235, 6.415223359526754, 7.615953729086215, 5.711908618940516, 8.003656969382178]
+R2Living_unit.Parental.home:[0.9942654690223789, 0.9996732150127824, 0.9995394390350253, 0.9997409395984134, 0.9994913541957403]
+MAE_Living_unit.Parental.home_average:[7.222086615289589]
+RMSE_Living_unit.Parental.home_avergae:[10.924116015897601]
+R2Living_unit.Parental.home_average:[0.998542083372868]
+MAE_Living_unit.Parental.home_variance:29.50173219352667
+RMSE_Living_unit.Parental.home_variance:64.2727700011472
+R2Living_unit.Parental.home_variance:4.580395750229518e-06

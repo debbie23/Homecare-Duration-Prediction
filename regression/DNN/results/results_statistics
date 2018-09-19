@@ -1,0 +1,433 @@
+##############################################################
+this is prediction results by DNN for the next 1 to 15 weeks
+mean and variance for each meatric are also calculated
+##############################################################
+##############################################################
+##v1
+################################################################
+Mean absolute error (MAE):      5.968459
+Root mean squared error (RMSE): 10.719667
+R square (R^2):                 0.999861
+
+Mean absolute error (MAE):      4.586403
+Root mean squared error (RMSE): 10.350457
+R square (R^2):                 0.999870
+ 
+Mean absolute error (MAE):      5.627282
+Root mean squared error (RMSE): 20.387276
+R square (R^2):                 0.999495
+ 
+Mean absolute error (MAE):      4.670589
+Root mean squared error (RMSE): 9.427946
+R square (R^2):                 0.999892
+ 
+Mean:
+Mae:5.21318
+Rmse: 12.7213
+R2:0.99978
+Variance:
+Mae: 0.476394
+Rmse: 26.4136
+R2: 3.6143×10^-8
+
+ 
+########################################################################
+##v2
+########################################################################
+ 
+Mean absolute error (MAE):      4.973883
+Root mean squared error (RMSE): 9.680409
+R square (R^2):                 0.999883
+
+Mean absolute error (MAE):      4.439490
+Root mean squared error (RMSE): 9.345585
+R square (R^2):                 0.999891
+ 
+Mean absolute error (MAE):      5.040154
+Root mean squared error (RMSE): 9.752748
+R square (R^2):                 0.999881
+ 
+Mean absolute error (MAE):      4.469024
+Root mean squared error (RMSE): 9.843172
+R square (R^2):                 0.999878
+
+Mean:
+Mae: 4.73064
+Rmse:9.65548
+R2:0.999883
+Variance:
+Mae: .102726
+Rmse : 0.0471152
+R2: 3.09167×10^-11
+########################################################################
+##v3
+########################################################################
+ 
+Mean absolute error (MAE):      4.165045
+Root mean squared error (RMSE): 11.834766
+R square (R^2):                 0.999826
+ 
+Mean absolute error (MAE):      4.336482
+Root mean squared error (RMSE): 9.852935
+R square (R^2):                 0.999879
+ 
+
+Mean absolute error (MAE):      4.484228
+Root mean squared error (RMSE): 10.141039
+R square (R^2):                 0.999872
+ 
+Mean absolute error (MAE):      4.058126
+Root mean squared error (RMSE): 9.665324
+R square (R^2):                 0.999883
+ 
+Mean:
+Mae:4.26097
+Rmse: 10.3735
+R2: 0.999865
+Variance:
+Mae:0.0352978
+Rmse:0.987279
+R2:6.96667×10^-10
+
+
+########################################################################
+v4
+########################################################################
+Mean absolute error (MAE):      6.329614
+Root mean squared error (RMSE): 12.686370
+R square (R^2):                 0.999801
+ 
+Mean absolute error (MAE):      8.886073
+Root mean squared error (RMSE): 25.875109
+R square (R^2):                 0.999170
+
+Mean absolute error (MAE):      5.314045
+Root mean squared error (RMSE): 18.453140
+R square (R^2):                 0.999576
+ 
+Mean absolute error (MAE):      5.339140
+Root mean squared error (RMSE): 10.409557
+R square (R^2):                 0.999864
+
+Mean:
+Mae: 6.46722
+Rmse: 16.856
+R2: 0.999603
+Variance:
+Mae: 2.82405
+Rmse: 47.6125
+R2:9.85143×10^-8
+
+########################################################################
+## v5
+########################################################################
+Mean absolute error (MAE):      5.045822
+Root mean squared error (RMSE): 13.696750
+R square (R^2):                 0.999772
+
+Mean absolute error (MAE):      4.298758
+Root mean squared error (RMSE): 13.601281
+R square (R^2):                 0.999774
+ 
+Mean absolute error (MAE):      6.603979
+Root mean squared error (RMSE): 17.559956
+R square (R^2):                 0.999622
+ 
+Mean absolute error (MAE):      4.886667
+Root mean squared error (RMSE): 11.856736
+R square (R^2):                 0.999827
+
+Mean:
+Mae: 5.20881
+Rmse: 14.1787
+R2: 0.999749
+Variance:
+Mae: 0.968344
+Rmse: 5.7967
+R2: 7.78892×10^-9
+########################################################################
+### v6
+########################################################################
+Mean absolute error (MAE):      5.210834
+Root mean squared error (RMSE): 10.846332
+R square (R^2):                 0.999856
+ 
+Mean absolute error (MAE):      5.582747
+Root mean squared error (RMSE): 19.086453
+R square (R^2):                 0.999553
+  
+Mean absolute error (MAE):      6.613835
+Root mean squared error (RMSE): 24.212558
+R square (R^2):                 0.999277
+
+Mean absolute error (MAE):      6.914156
+Root mean squared error (RMSE): 14.767231
+R square (R^2):                 0.999731
+
+Mean:
+Mae: 6.08039
+Rmse: 17.2281
+R2: 0.999604
+Variance:
+Mae: 0.661169
+Rmse: 33.0063
+R2:6.30543×10^-8
+
+
+########################################################################
+## v7
+########################################################################
+ 
+Mean absolute error (MAE):      5.510108
+Root mean squared error (RMSE): 12.770174
+R square (R^2):                 0.999796
+ 
+Mean absolute error (MAE):      4.535735
+Root mean squared error (RMSE): 11.653691
+R square (R^2):                 0.999830
+ 
+Mean absolute error (MAE):      6.846979
+Root mean squared error (RMSE): 21.660625
+R square (R^2):                 0.999408
+ 
+Mean absolute error (MAE):      4.339369
+Root mean squared error (RMSE): 12.914766
+R square (R^2):                 0.999789
+ 
+Mean:
+Mae: 5.30805
+Rmse: 14.7498
+R2: 0.999706
+Variance:
+Mae: 1.31465
+Rmse: 21.5439
+R2:3.97229×10^-8
+
+
+########################################################################
+## v8
+########################################################################
+Mean absolute error (MAE):      5.251665
+Root mean squared error (RMSE): 12.995601
+R square (R^2):                 0.999840
+ 
+Mean absolute error (MAE):      6.535099
+Root mean squared error (RMSE): 13.633935
+R square (R^2):                 0.999824
+ 
+Mean absolute error (MAE):      5.395371
+Root mean squared error (RMSE): 14.045854
+R square (R^2):                 0.999812
+ 
+Mean absolute error (MAE):      4.526835
+Root mean squared error (RMSE): 12.325455
+R square (R^2):                 0.999855
+  
+Mean:
+Mae: 5.42724
+Rmse: 13.2502
+R2: 0.999833
+Variance:
+Mae: 0.689974
+Rmse: 0.566764
+R2:3.51583×10^-10
+
+########################################################################
+## v9
+########################################################################
+Mean absolute error (MAE):      6.177886
+Root mean squared error (RMSE): 11.746253
+R square (R^2):                 0.999862
+ 
+Mean absolute error (MAE):      6.403062
+Root mean squared error (RMSE): 36.515129
+R square (R^2):                 0.998665
+  
+Mean absolute error (MAE):      4.979223
+Root mean squared error (RMSE): 17.074157
+R square (R^2):                 0.999706
+ 
+Mean absolute error (MAE):      6.309326
+Root mean squared error (RMSE): 20.527408
+R square (R^2):                 0.999574
+ 
+Mean:
+Mae: 5.96737
+Rmse: 21.4657
+R2: 0.999452
+Variance:
+Mae: 0.442504
+Rmse: 113.706
+R2:2.88956×10^-7
+##############################################################
+## v10
+##############################################################
+Mean absolute error (MAE):      6.287178
+Root mean squared error (RMSE): 13.019804
+R square (R^2):                 0.999827
+ 
+Mean absolute error (MAE):      5.486253
+Root mean squared error (RMSE): 28.428421
+R square (R^2):                 0.999174
+  
+Mean absolute error (MAE):      5.306606
+Root mean squared error (RMSE): 11.655652
+R square (R^2):                 0.999860
+  
+Mean absolute error (MAE):      6.395182
+Root mean squared error (RMSE): 13.420599
+R square (R^2):                 0.999814
+
+Mean:
+Mae: 5.8688
+Rmse: 16.6311
+R2: 0.999669
+Variance:
+Mae: 0.304841
+Rmse: 62.4267
+R2:1.09165×10^-7
+
+
+##############################################################
+## v11
+##############################################################
+Mean absolute error (MAE):      5.109122
+Root mean squared error (RMSE): 10.649978
+R square (R^2):                 0.999871
+  
+Mean absolute error (MAE):      5.488997
+Root mean squared error (RMSE): 11.218175
+R square (R^2):                 0.999857
+ 
+Mean absolute error (MAE):      6.440929
+Root mean squared error (RMSE): 25.531516
+R square (R^2):                 0.999255
+ 
+Mean absolute error (MAE):      7.224303
+Root mean squared error (RMSE): 15.059347
+R square (R^2):                 0.999740
+
+Mean:
+Mae: 6.06584
+Rmse:15.6148
+R2: 0.999681
+Variance:
+Mae: 0.910262
+Rmse: 47.5432
+R2:8.40109×10^-8
+
+##############################################################
+## v12
+##############################################################
+Mean absolute error (MAE):      6.940906
+Root mean squared error (RMSE): 14.148220
+R square (R^2):                 0.999698
+ 
+Mean absolute error (MAE):      5.833478
+Root mean squared error (RMSE): 12.510829
+R square (R^2):                 0.999763
+  
+Mean absolute error (MAE):      5.159496
+Root mean squared error (RMSE): 11.908231
+R square (R^2):                 0.999784
+ 
+Mean absolute error (MAE):      5.750600
+Root mean squared error (RMSE): 15.439637
+R square (R^2):                 0.999636
+ 
+Mean:
+Mae:5.92112
+Rmse: 13.5017
+R2:0.99972
+Variance:
+Mae: 0.552264
+Rmse: 2.56485
+R2:4.49492×10^-9
+
+###############################################################
+v13
+###############################################################
+Mean absolute error (MAE):      5.005152
+Root mean squared error (RMSE): 12.137980
+R square (R^2):                 0.999726
+ 
+Mean absolute error (MAE):      5.077923
+Root mean squared error (RMSE): 11.349067
+R square (R^2):                 0.999760
+ 
+Mean absolute error (MAE):      4.892745
+Root mean squared error (RMSE): 14.253908
+R square (R^2):                 0.999618
+ 
+Mean absolute error (MAE):      4.421621
+Root mean squared error (RMSE): 11.837482
+R square (R^2):                 0.999736
+ 
+Mean:
+Mae: 4.84936
+Rmse:12.3946
+R2: 0.99971
+Variance:
+Mae: 0.0871184
+Rmse: 1.64213
+R2:3.96533×10^-9
+
+
+###############################################
+v14
+############################################### 
+Mean absolute error (MAE):      3.873507
+Root mean squared error (RMSE): 9.352845
+R square (R^2):                 0.999828
+ 
+Mean absolute error (MAE):      4.373200
+Root mean squared error (RMSE): 9.692366
+R square (R^2):                 0.999815
+ 
+Mean absolute error (MAE):      5.646536
+Root mean squared error (RMSE): 21.408094
+R square (R^2):                 0.999093
+  
+Mean absolute error (MAE):      6.223994
+Root mean squared error (RMSE): 16.730551
+R square (R^2):                 0.999445
+ 
+Mean:
+Mae: 5.02931
+Rmse: 14.296
+R2: 0.999545
+Variance:
+Mae: 1.19153
+Rmse: 34.0457
+R2:1.22431×10^-7
+
+
+###############################################################
+v15
+###############################################################
+Mean absolute error (MAE):      4.747414
+Root mean squared error (RMSE): 14.190662
+R square (R^2):                 0.999598
+
+Mean absolute error (MAE):      4.582010
+Root mean squared error (RMSE): 10.152575
+R square (R^2):                 0.999794
+  
+Mean absolute error (MAE):      5.260694
+Root mean squared error (RMSE): 16.520893
+R square (R^2):                 0.999449
+ 
+Mean absolute error (MAE):      4.211087
+Root mean squared error (RMSE): 15.493638
+R square (R^2):                 0.999515
+ 
+Mean:
+Mae: 4.7003
+Rmse: 14.0894
+R2: 0.999589
+Variance:
+Mae: 0.189861
+Rmse: 7.79763
+R2:2.2394×10^-8
+
+

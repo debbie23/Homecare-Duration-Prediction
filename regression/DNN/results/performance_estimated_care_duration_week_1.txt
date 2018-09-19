@@ -1,0 +1,19 @@
+colName:estimated_care_duration.3.to.6.months
+MAE_estimated_care_duration.Unknown:[19.815864735087786, 3.9881012875642643, 4.895571708655508, 4.039782604650475, 5.340531032022479]
+RMSE_estimated_care_duration.Unknown:[29.05092369728498, 6.937255899853406, 9.629093968643396, 7.295881115634603, 9.862853626955165]
+R2estimated_care_duration.Unknown:[0.998231562723086, 0.9998991571295122, 0.9998057143971228, 0.9998884613800326, 0.9997961667893724]
+MAE_estimated_care_duration.Unknown_average:[7.615970273596102]
+RMSE_estimated_care_duration.Unknown_avergae:[12.555201661674309]
+R2estimated_care_duration.Unknown_average:[0.9995242124838253]
+MAE_estimated_care_duration.Unknown_variance:37.47323371781798
+RMSE_estimated_care_duration.Unknown_variance:69.42829136723178
+R2estimated_care_duration.Unknown_variance:4.1948132423053704e-07
+MAE_estimated_care_duration.3.to.6.months:[22.26752133724636, 4.105852382641394, 4.970792298160921, 4.121363426116965, 5.417101758528787]
+RMSE_estimated_care_duration.3.to.6.months:[39.89927576735295, 7.280067875509815, 8.458609851491563, 7.359053547480136, 9.18049026287929]
+R2estimated_care_duration.3.to.6.months:[0.9965177235683366, 0.9998840678005981, 0.9998434939228609, 0.9998815385227029, 0.9998156407355011]
+MAE_estimated_care_duration.3.to.6.months_average:[8.176526240538886]
+RMSE_estimated_care_duration.3.to.6.months_avergae:[14.43549946094275]
+R2estimated_care_duration.3.to.6.months_average:[0.9991884929099999]
+MAE_estimated_care_duration.3.to.6.months_variance:49.89240550110107
+RMSE_estimated_care_duration.3.to.6.months_variance:162.60370455963348
+R2estimated_care_duration.3.to.6.months_variance:1.78389724959324e-06

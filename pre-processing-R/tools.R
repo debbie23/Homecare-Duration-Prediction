@@ -102,6 +102,13 @@ pre_processing_data <- function(weekNumDiff){
   filnemas <- paste("C:/work/ecare/data/allCom_v",weekNumDiff,sep = "")
   filnemas <- paste(filnemas,"_raw.rds",sep = "")
   allCom <- readRDS(filnemas)
+  
+  filnemas <- paste("C:/work/ecare/data/allCom_v",weekNumDiff,sep = "")
+  filnemas <- paste(filnemas,"_baseLine.rds",sep = "")
+  baseLines<- select(allCom, c("Estimated_Minutes_Weekly","duration_next_week"))
+  saveRDS(baseLines, filnemas)
+
+
   # extract info from assessment_date
   allCom$assessment_date <- paste("2017-",allCom$assessment_date,sep = "")
   allCom$assessment_date <- as.Date(allCom$assessment_date)
@@ -110,9 +117,9 @@ pre_processing_data <- function(weekNumDiff){
   allCom$ass_month <- month(allCom$assessment_date)
   allCom$ass_month_day <- mday(allCom$assessment_date)
   allCom$ass_quater_day <- qday(allCom$assessment_date)
-  
+
   allCom$assessment_date  <- NULL
-  
+
   #extract info from registration care end time
   head(allCom$register_Einddtime)
   allCom$register_Einddtime <- as.Date(allCom$register_Einddtime)
@@ -123,30 +130,30 @@ pre_processing_data <- function(weekNumDiff){
   allCom$reg_quater_day <- qday(allCom$register_Einddtime)
   allCom$register_Einddtime <- NULL
   allCom$register_Starttime <- NULL
-  
+
   # change na into unknown
   # head(allCom[which(!allCom$Marital_status %in% c("Gehuwd","Alleenstaand","Samenwonend","Samenwonend met contract")),])
   allCom$Marital_status[is.na(allCom$Marital_status)] <- "unkwnon"
-  
+
   cols <- c("estimated_care_duration", "estimated_care_request", "Advice_Instructions_Travel",
             "Treatments","Case_management","Monitoring_Bevaking","ass_week_num","ass_year_day",
             "register_NextWeekNR","Financer","JobTitle","TeamID","SignAndSymptomName","ProblemName",
            "Gender","Marital_status","Living_unit","ass_date","ass_weekday","ass_month","ass_month_day",
             "ass_quater_day","reg_date","reg_weekDay","reg_month","reg_month_day","reg_quater_day")
-  
+
   colnames(allCom)
   allCom[cols] <- lapply(allCom[cols], factor)
-  
+
   # rm(list=setdiff(ls(), "allCom","weekNumDiff"))
   allCom <- select(allCom, -c("PatientID"))
-  
+
   ## replace jobTitle into english in case of encoding error
   levels(allCom$JobTitle) <- c("substitute power","Pupil","Subcontractor","Cleaner","trainee",
                                "nursing specialist","nurse in the neighborhood","nurturing level 2",
                                "nurturing level 3","district nurse","District nurse/nursing specialist",
                                "ward nurse","Sick-nurse","ZOZer")
-  
-  ## one-hot-encoding 
+
+  ## one-hot-encoding
   dmy <- dummyVars(" ~Gender", data = allCom)
   trsf <- data.frame(predict(dmy, newdata = allCom))
   allCom <- select(allCom,-c("Gender"))
@@ -162,38 +169,38 @@ pre_processing_data <- function(weekNumDiff){
   allCom <- select(allCom,-c("Living_unit"))
   allCom <- cbind(allCom,trsf)
   trsf <- NULL
-  
+
   dmy <- dummyVars(" ~Financer", data = allCom)
   trsf <- data.frame(predict(dmy, newdata = allCom))
   allCom <- select(allCom,-c("Financer"))
   allCom <- cbind(allCom,trsf)
   trsf <- NULL
-  
+
   dmy <- dummyVars(" ~JobTitle", data = allCom)
   trsf <- data.frame(predict(dmy, newdata = allCom))
   allCom <- select(allCom,-c("JobTitle"))
   allCom <- cbind(allCom,trsf)
   trsf <- NULL
-  
+
   dmy <- dummyVars(" ~estimated_care_duration", data = allCom)
   trsf <- data.frame(predict(dmy, newdata = allCom))
   allCom <- select(allCom,-c("estimated_care_duration"))
   allCom <- cbind(allCom,trsf)
   trsf <- NULL
-  
+
   dmy <- dummyVars(" ~estimated_care_request", data = allCom)
   trsf <- data.frame(predict(dmy, newdata = allCom))
   allCom <- select(allCom,-c("estimated_care_request"))
   allCom <- cbind(allCom,trsf)
   trsf <- NULL
   summary(allCom)
-  
+
   teamiDs <- allCom %>%
     group_by(TeamID) %>%
     dplyr::summarise( frequencies = n()/(dim(allCom)[1])) %>%
-    ungroup()%>% 
+    ungroup()%>%
     arrange(desc(frequencies))
-  
+
   teamiDs_greater_than_005 <- teamiDs[which(teamiDs$frequencies > 0.005),]
   allCom$TeamID <-as.numeric(levels(allCom$TeamID))[allCom$TeamID]
   allCom_sub <- allCom[which(allCom$TeamID %in% teamiDs_greater_than_005$TeamID),]
@@ -201,13 +208,13 @@ pre_processing_data <- function(weekNumDiff){
   allCom_sub_remained$TeamID <- 0
   allCom <- bind_rows(allCom_sub, allCom_sub_remained)
   allCom$TeamID <- factor(allCom$TeamID)
-  
+
   teamiDs<-NULL
   teamiDs_greater_than_005<-NULL
   allCom_sub<-NULL
   allCom_sub_remained <- NULL
-  
-  
+
+
   length(unique(allCom$TeamID))
   dmy <- dummyVars(" ~TeamID", data = allCom)
   trsf <- data.frame(predict(dmy, newdata = allCom))
@@ -215,34 +222,34 @@ pre_processing_data <- function(weekNumDiff){
   allCom <- cbind(allCom,trsf)
   trsf <- NULL
   summary(allCom)
-  
-  
+
+
   dmy <- dummyVars(" ~ProblemName", data = allCom)
   trsf <- data.frame(predict(dmy, newdata = allCom))
   # allCom <- select(allCom,-c("ProblemName"))
   allCom <- cbind(allCom,trsf)
   trsf <- NULL
   summary(allCom)
-  
+
   synFreq <- allCom %>%
     group_by(SignAndSymptomName,ProblemName) %>%
     summarise( frequencies = n()/(dim(allCom)[1])) %>%
     ungroup() %>%
     arrange(desc(frequencies))
-  
-  
+
+
   synFreq_01 <- synFreq[which(synFreq$frequencies > 0.01),]
-  allCom_sub <- allCom[which((allCom$SignAndSymptomName %in% synFreq_01$SignAndSymptomName) 
+  allCom_sub <- allCom[which((allCom$SignAndSymptomName %in% synFreq_01$SignAndSymptomName)
                              &(allCom$ProblemName %in% synFreq_01$ProblemName)),]
   allCom_sub$combindSymptonProblem <- paste(allCom_sub$ProblemName,allCom_sub$SignAndSymptomName,sep="_")
-  allCom_sub_remained <- allCom[which(!((allCom$SignAndSymptomName %in% synFreq_01$SignAndSymptomName) 
+  allCom_sub_remained <- allCom[which(!((allCom$SignAndSymptomName %in% synFreq_01$SignAndSymptomName)
                                         &(allCom$ProblemName %in% synFreq_01$ProblemName))),]
   allCom_sub_remained$SignAndSymptomName <- "omittedSymptons"
   allCom_sub_remained$combindSymptonProblem <- "omittedSymptons"
   allCom <- bind_rows(allCom_sub, allCom_sub_remained)
   allCom_sub_remained <- NULL
   allCom_sub <- NULL
-  
+
   dmy <- dummyVars(" ~combindSymptonProblem", data = allCom)
   trsf <- data.frame(predict(dmy, newdata = allCom))
   allCom <- select(allCom,-c("combindSymptonProblem"))
@@ -252,23 +259,29 @@ pre_processing_data <- function(weekNumDiff){
   synFreq_01 <- NULL
   synFreq <- NULL
   allCom <- select(allCom,-c("SignAndSymptomName","ProblemName"))
-  
+
+
+  filnemas <- paste("C:/work/ecare/data/allCom_v",weekNumDiff,sep = "")
+  filnemas <- paste(filnemas,"_no_scale.rds",sep = "")
+  saveRDS(allCom, filnemas)
+
+
   ## remove non-variance columns
   nzv <- nearZeroVar(allCom)
   remove_non_zero_data<- allCom[, -nzv]
   dim(remove_non_zero_data)
-  
+
   setdiff(colnames(allCom), colnames(remove_non_zero_data))
-  
+
   ###  scale and ceterin data, also use Yeo-Johnson transoform
-  label <- select(remove_non_zero_data, c('duration_next_week')) 
+  label <- select(remove_non_zero_data, c('duration_next_week'))
   non_label <- select(remove_non_zero_data, -c("duration_next_week"))
-  
+
   pp_hpc <- preProcess(non_label,  method = c("center", "scale", "YeoJohnson"))
   transformed_without_label  <- predict(pp_hpc, newdata = non_label)
-  
+
   allCom <- cbind(transformed_without_label,label)
-  
+
   filnemas <- paste("C:/work/ecare/data/allCom_v",weekNumDiff,sep = "")
   filnemas <- paste(filnemas,"_no_feature_selection.rds",sep = "")
   saveRDS(allCom, filnemas)
@@ -358,19 +371,19 @@ feature_engineering <- function(weekNumDiff){
   allCom$TeamID <- as.factor(as.numeric(allCom$TeamID))
   # allCom$register_WeekNR<-as.factor(allCom$register_WeekNR)
   
-
+  
   cols <- c("register_WeekNR","estimated_care_duration","estimated_care_request","Estimated_CareMoments_Weekly",
-        "Advice_Instructions_Travel","Treatments","Case_management",
-        "Monitoring_Bevaking","environment_num","psychosocial_num","physiological_num",
-        "healthRelated_num","ass_week_num","ass_year_day",
-        "care_times_weekly",
-        "Financer","JobTitle",
-        "Age","Gender","Marital_status","Living_unit",
-        "ass_weekday","ass_month","ass_month_day","ass_quater_day",
-        "reg_weekDay","reg_month","reg_month_day","reg_quater_day" )
-
+            "Advice_Instructions_Travel","Treatments","Case_management",
+            "Monitoring_Bevaking","environment_num","psychosocial_num","physiological_num",
+            "healthRelated_num","ass_week_num","ass_year_day",
+            "care_times_weekly",
+            "Financer","JobTitle",
+            "Age","Gender","Marital_status","Living_unit",
+            "ass_weekday","ass_month","ass_month_day","ass_quater_day",
+            "reg_weekDay","reg_month","reg_month_day","reg_quater_day" )
+  
   # cols <- c("register_WeekNR")
-            
+  
   # colnames(allCom)
   allCom[cols] <- lapply(allCom[cols], factor)
   
@@ -399,16 +412,16 @@ savePlot <- function(datasets,weekNumDiff){
     teamID_type <-  length(grep("(TeamID)", predictor_name, perl = TRUE, value = TRUE))
     type <- "others"
     myPlot <- NULL
-
+    
     if (quater_day_type != 0){ type <- "quater_day_type"}
     if (moth_type != 0){ type <- "moth_type"}
     if (moth_day_type != 0){ type <- "moth_day_type"}
     if (weekDay_type != 0){ type <- "weekDay_type"}
     if (weekNR_type != 0){ type <- "weekNR_type"}
     if (teamID_type != 0){  type <- "teamID_type"}
-
+    
     addBreaks <- breaksOnScales(type)
-
+    
     myPlot <- ggplot(allCom, aes_string(predictor_name, "duration_next_week"))+
       # geom_point(alpha=.2,position = position_jitter(h=0))+
       geom_boxplot()+
@@ -416,7 +429,7 @@ savePlot <- function(datasets,weekNumDiff){
       theme(axis.text.x=element_text(color = "black", size=8, angle=45, vjust=.8, hjust=0.8),
             axis.title=element_text(size=15))+
       addBreaks
-
+    
     if(predictor_name %in% c("ass_year_day","duration_mean_each_time","duration_median_each_time",
                              "duration_week_minus","duration_each_time","Estimated_Minutes_Weekly",
                              "TeamID")){
@@ -427,10 +440,10 @@ savePlot <- function(datasets,weekNumDiff){
               axis.title=element_text(size=15))+
         addBreaks
     }
-
+    
     fileName = paste0("C:/work/ecare/plot/v",weekNumDiff, "/", predictor_name, "VScare.png")
     ggsave(filename=fileName, plot=myPlot,width=5,height=5,limitsize=FALSE)
-
+    
   }
   ## save histgram for the response
   p1<- datasets %>% count(duration_next_week) %>% 
@@ -454,6 +467,7 @@ savePlot <- function(datasets,weekNumDiff){
   ggsave(filename=fileName, plot=myPlot,width=5,height=5,limitsize=FALSE)
 }
 
+
 ##########################################
 ## save correlation plot
 #####################################
@@ -476,12 +490,12 @@ saveCorr <- function(weekNumDiff,withDendrogram){
   switch(
     withDendrogram,
     yes={col<- colorRampPalette(c("blue", "white", "red"))(20)
-         fileName = paste0("C:/work/ecare/plot/v",weekNumDiff, "/cor_heat.png")
-         png(file=fileName, units="in", width=8, height=8, res=300)
-         # heatmap.2(x = corr, col = col, symm = TRUE,tracecol=NA)
-         heatmap.2(x=corr,col =col, scale="row",
-                   key=TRUE, symkey=FALSE, density.info="none",cexRow=0.6,cexCol=0.6,margins=c(10,10),trace="none",srtCol=45,srtRow = 45)
-         dev.off()},
+    fileName = paste0("C:/work/ecare/plot/v",weekNumDiff, "/cor_heat.png")
+    png(file=fileName, units="in", width=8, height=8, res=300)
+    # heatmap.2(x = corr, col = col, symm = TRUE,tracecol=NA)
+    heatmap.2(x=corr,col =col, scale="row",
+              key=TRUE, symkey=FALSE, density.info="none",cexRow=0.6,cexCol=0.6,margins=c(10,10),trace="none",srtCol=45,srtRow = 45)
+    dev.off()},
     no={
       p.mat <- cor_pmat(allCom)
       coorlot <- ggcorrplot(corr, hc.order = TRUE,
@@ -504,5 +518,29 @@ saveCorr <- function(weekNumDiff,withDendrogram){
       fileName = paste0("C:/work/ecare/plot/v",weekNumDiff, "/cor.png")
       ggsave(filename=fileName, plot=coorlot, width=10,height=10,limitsize=FALSE)
     })
- 
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+colName:estimated_care_request.Unknown
+MAE_estimated_care_request.Unknown:[19.721136618463408, 4.159151897308879, 5.09521381909909, 4.199049406534203, 5.456332005783153]
+RMSE_estimated_care_request.Unknown:[26.941949659544964, 7.028620540646649, 9.802470469334592, 7.027385709388176, 9.244400656828999]
+R2estimated_care_request.Unknown:[0.996149734329423, 0.9997379568259949, 0.9994903127828452, 0.9997380488926177, 0.9995466953480406]
+MAE_estimated_care_request.Unknown_average:[7.726176749437746]
+RMSE_estimated_care_request.Unknown_avergae:[12.008965407148677]
+R2estimated_care_request.Unknown_average:[0.9989325496357843]
+MAE_estimated_care_request.Unknown_variance:36.22350338988228
+RMSE_estimated_care_request.Unknown_variance:57.0250856252115
+R2estimated_care_request.Unknown_variance:1.945969101644591e-06

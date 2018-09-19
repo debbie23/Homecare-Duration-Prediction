@@ -1,0 +1,1392 @@
+##############################################################
+v1: with 5-fold cross validation
+##############################################################
+C:\Users\chen\Miniconda3\envs\ecare\python.exe C:/work/ecare/regression/DNN/MLPs.py
+Using TensorFlow backend.
+C:\Users\chen\Miniconda3\envs\ecare\lib\site-packages\sklearn\model_selection\_split.py:605: Warning: The least populated class in y has only 3 members, which is too few. The minimum number of members in any class cannot be less than n_splits=5.
+  % (min_groups, self.n_splits)), Warning)
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+dense_1 (Dense)              (None, 1000)              38000
+_________________________________________________________________
+dense_2 (Dense)              (None, 500)               500500
+_________________________________________________________________
+dense_3 (Dense)              (None, 100)               50100
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 100)               0
+_________________________________________________________________
+dense_4 (Dense)              (None, 1)                 101
+=================================================================
+Total params: 588,701
+Trainable params: 588,701
+Non-trainable params: 0
+_________________________________________________________________
+model structure:
+ None
+
+Fold  0
+(642418, 37)
+Epoch 00149: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00188: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00203: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00217: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00227: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00237: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00248: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00258: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00268: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-12.
+Epoch 00278: ReduceLROnPlateau reducing learning rate to 1.0000001044244145e-13.
+Epoch 00278: early stopping
+
+Mean absolute error (MAE):      3.802681
+Mean squared error (MSE):       42.906458
+Root mean squared error (RMSE): 6.550302
+R square (R^2):                 0.999948
+
+Fold  1
+(642418, 37)
+C:\Users\chen\Miniconda3\envs\ecare\lib\site-packages\keras\engine\saving.py:304: UserWarning: Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+  warnings.warn('Error in loading the saved optimizer '
+
+Epoch 00038: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00063: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00097: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00107: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00121: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00131: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00141: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00151: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00151: early stopping
+
+
+Mean absolute error (MAE):      4.047351
+Mean squared error (MSE):       108.986057
+Root mean squared error (RMSE): 10.439639
+R square (R^2):                 0.999868
+
+Fold  2
+(642418, 37)
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00079: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00096: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00113: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00140: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00150: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00163: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00173: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00183: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-12.
+Epoch 00193: ReduceLROnPlateau reducing learning rate to 1.0000001044244145e-13.
+Epoch 00193: early stopping
+
+Mean absolute error (MAE):      4.689878
+Mean squared error (MSE):       105.122190
+Root mean squared error (RMSE): 10.252911
+R square (R^2):                 0.999872
+
+Fold  3
+(642418, 37)
+Epoch 00097: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00118: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00158: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00168: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00180: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00190: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00200: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00210: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00210: early stopping
+
+Mean absolute error (MAE):      3.570959
+Mean squared error (MSE):       39.493502
+Root mean squared error (RMSE): 6.284386
+R square (R^2):                 0.999952
+
+Fold  4
+(642418, 37)
+Epoch 00020: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00042: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00054: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00069: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00079: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00092: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00102: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00112: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00122: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-12.
+Epoch 00122: early stopping
+
+Mean absolute error (MAE):      4.256863
+Mean squared error (MSE):       87.759818
+Root mean squared error (RMSE): 9.368021
+R square (R^2):                 0.999893
+
+Process finished with exit code 0
+
+
+##############################################################
+4-fold cross validataion
+##############################################################
+##v1
+################################################################
+C:\Users\chen\Miniconda3\envs\ecare\python.exe C:/work/ecare/pre-processing-R/simple_model_no_categorical.py
+Using TensorFlow backend.
+C:\Users\chen\Miniconda3\envs\ecare\lib\site-packages\sklearn\model_selection\_split.py:605: Warning: The least populated class in y has only 3 members, which is too few. The minimum number of members in any class cannot be less than n_splits=4.
+  % (min_groups, self.n_splits)), Warning)
+WARNING:tensorflow:From C:\Users\chen\Miniconda3\envs\ecare\lib\site-packages\keras\backend\tensorflow_backend.py:1123: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From C:\Users\chen\Miniconda3\envs\ecare\lib\site-packages\keras\backend\tensorflow_backend.py:1044: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+dense_1 (Dense)              (None, 1000)              38000
+_________________________________________________________________
+dense_2 (Dense)              (None, 500)               500500
+_________________________________________________________________
+dense_3 (Dense)              (None, 100)               50100
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 100)               0
+_________________________________________________________________
+dense_4 (Dense)              (None, 1)                 101
+=================================================================
+Total params: 588,701.0
+Trainable params: 588,701.0
+Non-trainable params: 0.0
+_________________________________________________________________
+model structure:
+ None
+
+Fold  0
+(642418, 37)
+2018-08-30 10:17:41.680035: I T:\src\github\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-08-30 10:17:42.593712: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1405] Found device 0 with properties:
+name: GeForce GTX 965M major: 5 minor: 2 memoryClockRate(GHz): 1.15
+pciBusID: 0000:01:00.0
+totalMemory: 2.00GiB freeMemory: 1.64GiB
+2018-08-30 10:17:42.594362: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-08-30 10:17:43.269315: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-08-30 10:17:43.269661: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:971]      0
+2018-08-30 10:17:43.269891: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:984] 0:   N
+2018-08-30 10:17:43.270303: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 1392 MB memory) -> physical GPU (device: 0, name: GeForce GTX 965M, pci bus id: 0000:01:00.0, compute capability: 5.2)
+
+Epoch 00124: reducing learning rate to 0.00010000000474974513.
+Epoch 00183: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00211: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00221: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00231: reducing learning rate to 1.000000082740371e-08.
+Epoch 00241: reducing learning rate to 1.000000082740371e-09.
+Epoch 00241: early stopping
+
+
+Mean absolute error (MAE):      5.968459
+Mean squared error (MSE):       114.911261
+Root mean squared error (RMSE): 10.719667
+R square (R^2):                 0.999861
+
+Fold  1
+(642418, 37)
+
+Epoch 00147: reducing learning rate to 0.00010000000474974513.
+Epoch 00172: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00196: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00222: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00232: reducing learning rate to 1.000000082740371e-08.
+Epoch 00242: reducing learning rate to 1.000000082740371e-09.
+Epoch 00252: reducing learning rate to 1.000000082740371e-10.
+Epoch 00252: early stopping
+
+
+Mean absolute error (MAE):      4.586403
+Mean squared error (MSE):       107.131958
+Root mean squared error (RMSE): 10.350457
+R square (R^2):                 0.999870
+
+Fold  2
+(642418, 37)
+
+Epoch 00109: reducing learning rate to 0.00010000000474974513.
+Epoch 00140: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00172: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00188: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00198: reducing learning rate to 1.000000082740371e-08.
+Epoch 00208: reducing learning rate to 1.000000082740371e-09.
+Epoch 00218: reducing learning rate to 1.000000082740371e-10.
+Epoch 00218: early stopping
+
+
+Mean absolute error (MAE):      5.627282
+Mean squared error (MSE):       415.641015
+Root mean squared error (RMSE): 20.387276
+R square (R^2):                 0.999495
+
+Fold  3
+(642418, 37)
+
+Epoch 00172: reducing learning rate to 0.00010000000474974513.
+Epoch 00205: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00218: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00245: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00255: reducing learning rate to 1.000000082740371e-08.
+Epoch 00275: reducing learning rate to 1.000000082740371e-09.
+Epoch 00285: reducing learning rate to 1.000000082740371e-10.
+Epoch 00297: reducing learning rate to 1.000000082740371e-11.
+Epoch 00307: reducing learning rate to 1.000000082740371e-12.
+Epoch 00328: reducing learning rate to 1.0000001044244145e-13.
+Epoch 00338: reducing learning rate to 1.0000001179769417e-14.
+Epoch 00348: reducing learning rate to 1.0000001518582595e-15.
+Epoch 00358: reducing learning rate to 1.0000001095066122e-16.
+Epoch 00358: early stopping
+
+
+Mean absolute error (MAE):      4.670589
+Mean squared error (MSE):       88.886158
+Root mean squared error (RMSE): 9.427946
+R square (R^2):                 0.999892
+
+Process finished with exit code 0
+
+#####
+post-trained
+####
+Fold  0
+(642418, 37)
+Epoch 00019: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00065: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00083: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00093: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00103: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00113: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00113: early stopping
+
+
+Mean absolute error (MAE):      5.728896
+Mean squared error (MSE):       105.168123
+Root mean squared error (RMSE): 10.255151
+R square (R^2):                 0.999873
+
+Fold  1
+(642418, 37)
+Epoch 00019: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00041: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00071: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00084: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00097: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00107: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00117: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00127: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00127: early stopping
+
+Mean absolute error (MAE):      4.255843
+Mean squared error (MSE):       99.674640
+Root mean squared error (RMSE): 9.983719
+R square (R^2):                 0.999879
+
+Fold  2
+(642418, 37)
+Epoch 00045: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00061: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00090: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00100: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00111: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00121: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00131: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00141: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00141: early stopping
+
+
+Mean absolute error (MAE):      4.997155
+Mean squared error (MSE):       387.676291
+Root mean squared error (RMSE): 19.689497
+R square (R^2):                 0.999529
+
+Fold  3
+(642418, 37)
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00030: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00052: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00062: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00088: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00098: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00108: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00108: early stopping
+
+
+Mean absolute error (MAE):      4.685818
+Mean squared error (MSE):       85.689539
+Root mean squared error (RMSE): 9.256864
+R square (R^2):                 0.999895
+
+Process finished with exit code 0
+
+
+
+########################################################################
+##v2
+########################################################################
+Fold  0
+
+Epoch 00165: reducing learning rate to 0.00010000000474974513.
+Epoch 00193: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00217: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00227: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00239: reducing learning rate to 1.000000082740371e-08.
+Epoch 00249: reducing learning rate to 1.000000082740371e-09.
+Epoch 00259: reducing learning rate to 1.000000082740371e-10.
+Epoch 00269: reducing learning rate to 1.000000082740371e-11.
+Epoch 00269: early stopping
+
+Mean absolute error (MAE):      4.973883
+Mean squared error (MSE):       93.710309
+Root mean squared error (RMSE): 9.680409
+R square (R^2):                 0.999883
+
+Fold  1
+(604562, 40)
+
+Epoch 00148: reducing learning rate to 0.00010000000474974513.
+Epoch 00181: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00227: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00237: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00251: reducing learning rate to 1.000000082740371e-08.
+Epoch 00261: reducing learning rate to 1.000000082740371e-09.
+Epoch 00271: reducing learning rate to 1.000000082740371e-10.
+Epoch 00281: reducing learning rate to 1.000000082740371e-11.
+Epoch 00281: early stopping
+
+
+Mean absolute error (MAE):      4.439490
+Mean squared error (MSE):       87.339967
+Root mean squared error (RMSE): 9.345585
+R square (R^2):                 0.999891
+
+Fold  2
+(604562, 40)
+
+Epoch 00119: reducing learning rate to 0.00010000000474974513.
+Epoch 00147: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00179: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00189: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00199: reducing learning rate to 1.000000082740371e-08.
+Epoch 00209: reducing learning rate to 1.000000082740371e-09.
+Epoch 00209: early stopping
+
+
+Mean absolute error (MAE):      5.040154
+Mean squared error (MSE):       95.116087
+Root mean squared error (RMSE): 9.752748
+R square (R^2):                 0.999881
+
+Fold  3
+(604562, 40)
+
+Epoch 00158: reducing learning rate to 0.00010000000474974513.
+Epoch 00209: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00226: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00246: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00267: reducing learning rate to 1.000000082740371e-08.
+Epoch 00277: reducing learning rate to 1.000000082740371e-09.
+Epoch 00287: reducing learning rate to 1.000000082740371e-10.
+Epoch 00297: reducing learning rate to 1.000000082740371e-11.
+Epoch 00297: early stopping
+
+
+Mean absolute error (MAE):      4.469024
+Mean squared error (MSE):       96.888042
+Root mean squared error (RMSE): 9.843172
+R square (R^2):                 0.999878
+
+Process finished with exit code 0
+
+########################################################################
+##v3
+########################################################################
+Fold  0
+Epoch 00155: reducing learning rate to 0.00010000000474974513.
+Epoch 00176: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00192: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00202: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00212: reducing learning rate to 1.000000082740371e-08.
+Epoch 00222: reducing learning rate to 1.000000082740371e-09.
+Epoch 00222: early stopping
+
+
+Mean absolute error (MAE):      4.165045
+Mean squared error (MSE):       140.061684
+Root mean squared error (RMSE): 11.834766
+R square (R^2):                 0.999826
+
+Fold  1
+(569974, 54)
+
+Epoch 00152: reducing learning rate to 0.00010000000474974513.
+Epoch 00169: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00181: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00208: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00218: reducing learning rate to 1.000000082740371e-08.
+Epoch 00240: reducing learning rate to 1.000000082740371e-09.
+Epoch 00250: reducing learning rate to 1.000000082740371e-10.
+Epoch 00260: reducing learning rate to 1.000000082740371e-11.
+Epoch 00270: reducing learning rate to 1.000000082740371e-12.
+Epoch 00270: early stopping
+
+Mean absolute error (MAE):      4.336482
+Mean squared error (MSE):       97.080332
+Root mean squared error (RMSE): 9.852935
+R square (R^2):                 0.999879
+
+Fold  2
+(569974, 54)
+
+Epoch 00192: reducing learning rate to 0.00010000000474974513.
+Epoch 00216: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00226: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00241: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00261: reducing learning rate to 1.000000082740371e-08.
+Epoch 00271: reducing learning rate to 1.000000082740371e-09.
+Epoch 00281: reducing learning rate to 1.000000082740371e-10.
+Epoch 00291: reducing learning rate to 1.000000082740371e-11.
+Epoch 00291: early stopping
+
+Mean absolute error (MAE):      4.484228
+Mean squared error (MSE):       102.840679
+Root mean squared error (RMSE): 10.141039
+R square (R^2):                 0.999872
+
+Fold  3
+(569974, 54)
+
+Epoch 00162: reducing learning rate to 0.00010000000474974513.
+Epoch 00195: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00217: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00229: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00239: reducing learning rate to 1.000000082740371e-08.
+Epoch 00249: reducing learning rate to 1.000000082740371e-09.
+Epoch 00259: reducing learning rate to 1.000000082740371e-10.
+Epoch 00259: early stopping
+
+
+Mean absolute error (MAE):      4.058126
+Mean squared error (MSE):       93.418480
+Root mean squared error (RMSE): 9.665324
+R square (R^2):                 0.999883
+
+Process finished with exit code 0
+########################################################################
+v4
+########################################################################
+Fold  0
+(540212, 41)
+Epoch 00102: reducing learning rate to 0.00010000000474974513.
+Epoch 00140: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00160: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00176: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00186: reducing learning rate to 1.000000082740371e-08.
+Epoch 00196: reducing learning rate to 1.000000082740371e-09.
+Epoch 00206: reducing learning rate to 1.000000082740371e-10.
+Epoch 00206: early stopping
+
+Mean absolute error (MAE):      6.329614
+Mean squared error (MSE):       160.943975
+Root mean squared error (RMSE): 12.686370
+R square (R^2):                 0.999801
+
+Fold  1
+(540212, 41)
+Epoch 00059: reducing learning rate to 0.00010000000474974513.
+Epoch 00095: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00108: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00133: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00143: reducing learning rate to 1.000000082740371e-08.
+Epoch 00155: reducing learning rate to 1.000000082740371e-09.
+Epoch 00165: reducing learning rate to 1.000000082740371e-10.
+Epoch 00175: reducing learning rate to 1.000000082740371e-11.
+Epoch 00185: reducing learning rate to 1.000000082740371e-12.
+Epoch 00185: early stopping
+
+Mean absolute error (MAE):      8.886073
+Mean squared error (MSE):       669.521262
+Root mean squared error (RMSE): 25.875109
+R square (R^2):                 0.999170
+
+Fold  2
+(540212, 41)
+Epoch 00148: reducing learning rate to 0.00010000000474974513.
+Epoch 00175: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00197: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00213: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00223: reducing learning rate to 1.000000082740371e-08.
+Epoch 00233: reducing learning rate to 1.000000082740371e-09.
+Epoch 00243: reducing learning rate to 1.000000082740371e-10.
+Epoch 00243: early stopping
+
+Mean absolute error (MAE):      5.314045
+Mean squared error (MSE):       340.518391
+Root mean squared error (RMSE): 18.453140
+R square (R^2):                 0.999576
+
+Fold  3
+(540212, 41)
+Epoch 00133: reducing learning rate to 0.00010000000474974513.
+Epoch 00163: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00182: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00192: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00216: reducing learning rate to 1.000000082740371e-08.
+Epoch 00226: reducing learning rate to 1.000000082740371e-09.
+Epoch 00236: reducing learning rate to 1.000000082740371e-10.
+Epoch 00246: reducing learning rate to 1.000000082740371e-11.
+Epoch 00246: early stopping
+
+Mean absolute error (MAE):      5.339140
+Mean squared error (MSE):       108.358878
+Root mean squared error (RMSE): 10.409557
+R square (R^2):                 0.999864
+Process finished with exit code 0
+
+########################################################################
+## v5
+########################################################################
+Fold  0
+(511270, 49)
+Epoch 00140: reducing learning rate to 0.00010000000474974513.
+Epoch 00156: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00170: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00186: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00196: reducing learning rate to 1.000000082740371e-08.
+Epoch 00215: reducing learning rate to 1.000000082740371e-09.
+Epoch 00225: reducing learning rate to 1.000000082740371e-10.
+Epoch 00235: reducing learning rate to 1.000000082740371e-11.
+Epoch 00245: reducing learning rate to 1.000000082740371e-12.
+Epoch 00245: early stopping
+
+
+Mean absolute error (MAE):      5.045822
+Mean squared error (MSE):       187.600949
+Root mean squared error (RMSE): 13.696750
+R square (R^2):                 0.999772
+
+Fold  1
+(511270, 49)
+Epoch 00138: reducing learning rate to 0.00010000000474974513.
+Epoch 00177: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00203: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00213: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00231: reducing learning rate to 1.000000082740371e-08.
+Epoch 00244: reducing learning rate to 1.000000082740371e-09.
+Epoch 00254: reducing learning rate to 1.000000082740371e-10.
+Epoch 00264: reducing learning rate to 1.000000082740371e-11.
+Epoch 00274: reducing learning rate to 1.000000082740371e-12.
+Epoch 00274: early stopping
+
+Mean absolute error (MAE):      4.298758
+Mean squared error (MSE):       184.994838
+Root mean squared error (RMSE): 13.601281
+R square (R^2):                 0.999774
+
+Fold  2
+(511270, 49)
+Epoch 00071: reducing learning rate to 0.00010000000474974513.
+Epoch 00100: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00119: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00135: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00148: reducing learning rate to 1.000000082740371e-08.
+Epoch 00158: reducing learning rate to 1.000000082740371e-09.
+Epoch 00168: reducing learning rate to 1.000000082740371e-10.
+Epoch 00178: reducing learning rate to 1.000000082740371e-11.
+Epoch 00178: early stopping
+
+
+Mean absolute error (MAE):      6.603979
+Mean squared error (MSE):       308.352038
+Root mean squared error (RMSE): 17.559956
+R square (R^2):                 0.999622
+
+Fold  3
+(511270, 49)
+Epoch 00105: reducing learning rate to 0.00010000000474974513.
+Epoch 00154: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00177: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00191: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00201: reducing learning rate to 1.000000082740371e-08.
+Epoch 00211: reducing learning rate to 1.000000082740371e-09.
+Epoch 00226: reducing learning rate to 1.000000082740371e-10.
+Epoch 00236: reducing learning rate to 1.000000082740371e-11.
+Epoch 00246: reducing learning rate to 1.000000082740371e-12.
+Epoch 00256: reducing learning rate to 1.0000001044244145e-13.
+Epoch 00256: early stopping
+
+Mean absolute error (MAE):      4.886667
+Mean squared error (MSE):       140.582182
+Root mean squared error (RMSE): 11.856736
+R square (R^2):                 0.999827
+
+Process finished with exit code 0
+########################################################################
+### v6
+########################################################################
+Fold  0
+(485443, 46)
+Epoch 00142: reducing learning rate to 0.00010000000474974513.
+Epoch 00181: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00194: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00214: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00233: reducing learning rate to 1.000000082740371e-08.
+Epoch 00260: reducing learning rate to 1.000000082740371e-09.
+Epoch 00270: reducing learning rate to 1.000000082740371e-10.
+Epoch 00280: reducing learning rate to 1.000000082740371e-11.
+Epoch 00290: reducing learning rate to 1.000000082740371e-12.
+Epoch 00290: early stopping
+
+Mean absolute error (MAE):      5.210834
+Mean squared error (MSE):       117.642927
+Root mean squared error (RMSE): 10.846332
+R square (R^2):                 0.999856
+
+Fold  1
+(485443, 46)
+
+Epoch 00117: reducing learning rate to 0.00010000000474974513.
+Epoch 00152: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00168: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00178: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00191: reducing learning rate to 1.000000082740371e-08.
+Epoch 00212: reducing learning rate to 1.000000082740371e-09.
+Epoch 00222: reducing learning rate to 1.000000082740371e-10.
+Epoch 00232: reducing learning rate to 1.000000082740371e-11.
+Epoch 00242: reducing learning rate to 1.000000082740371e-12.
+Epoch 00242: early stopping
+
+Mean absolute error (MAE):      5.582747
+Mean squared error (MSE):       364.292685
+Root mean squared error (RMSE): 19.086453
+R square (R^2):                 0.999553
+
+Fold  2
+(485443, 46)
+
+Epoch 00067: reducing learning rate to 0.00010000000474974513.
+Epoch 00115: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00139: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00164: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00174: reducing learning rate to 1.000000082740371e-08.
+Epoch 00188: reducing learning rate to 1.000000082740371e-09.
+Epoch 00198: reducing learning rate to 1.000000082740371e-10.
+Epoch 00208: reducing learning rate to 1.000000082740371e-11.
+Epoch 00221: reducing learning rate to 1.000000082740371e-12.
+Epoch 00231: reducing learning rate to 1.0000001044244145e-13.
+Epoch 00241: reducing learning rate to 1.0000001179769417e-14.
+Epoch 00251: reducing learning rate to 1.0000001518582595e-15.
+Epoch 00251: early stopping
+
+Mean absolute error (MAE):      6.613835
+Mean squared error (MSE):       586.247965
+Root mean squared error (RMSE): 24.212558
+R square (R^2):                 0.999277
+
+Fold  3
+(485443, 46)
+
+Epoch 00077: reducing learning rate to 0.00010000000474974513.
+Epoch 00109: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00125: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00138: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00148: reducing learning rate to 1.000000082740371e-08.
+Epoch 00165: reducing learning rate to 1.000000082740371e-09.
+Epoch 00175: reducing learning rate to 1.000000082740371e-10.
+Epoch 00185: reducing learning rate to 1.000000082740371e-11.
+Epoch 00195: reducing learning rate to 1.000000082740371e-12.
+Epoch 00195: early stopping
+
+Mean absolute error (MAE):      6.914156
+Mean squared error (MSE):       218.071101
+Root mean squared error (RMSE): 14.767231
+R square (R^2):                 0.999731
+
+Process finished with exit code 0
+
+
+########################################################################
+## v7
+########################################################################
+Fold  0
+(462607, 45)
+poch 00090: reducing learning rate to 0.00010000000474974513.
+Epoch 00119: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00153: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00163: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00173: reducing learning rate to 1.000000082740371e-08.
+Epoch 00183: reducing learning rate to 1.000000082740371e-09.
+Epoch 00183: early stopping
+
+
+Mean absolute error (MAE):      5.510108
+Mean squared error (MSE):       163.077353
+Root mean squared error (RMSE): 12.770174
+R square (R^2):                 0.999796
+
+Fold  1
+(462607, 45)
+
+Epoch 00128: reducing learning rate to 0.00010000000474974513.
+Epoch 00159: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00182: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00192: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00202: reducing learning rate to 1.000000082740371e-08.
+Epoch 00219: reducing learning rate to 1.000000082740371e-09.
+Epoch 00229: reducing learning rate to 1.000000082740371e-10.
+Epoch 00245: reducing learning rate to 1.000000082740371e-11.
+Epoch 00255: reducing learning rate to 1.000000082740371e-12.
+Epoch 00265: reducing learning rate to 1.0000001044244145e-13.
+Epoch 00275: reducing learning rate to 1.0000001179769417e-14.
+Epoch 00275: early stopping
+
+
+Mean absolute error (MAE):      4.535735
+Mean squared error (MSE):       135.808511
+Root mean squared error (RMSE): 11.653691
+R square (R^2):                 0.999830
+
+Fold  2
+(462607, 45)
+
+Epoch 00061: reducing learning rate to 0.00010000000474974513.
+Epoch 00089: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00103: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00130: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00140: reducing learning rate to 1.000000082740371e-08.
+Epoch 00157: reducing learning rate to 1.000000082740371e-09.
+Epoch 00167: reducing learning rate to 1.000000082740371e-10.
+Epoch 00177: reducing learning rate to 1.000000082740371e-11.
+Epoch 00187: reducing learning rate to 1.000000082740371e-12.
+Epoch 00187: early stopping
+
+
+Mean absolute error (MAE):      6.846979
+Mean squared error (MSE):       469.182665
+Root mean squared error (RMSE): 21.660625
+R square (R^2):                 0.999408
+
+Fold  3
+(462607, 45)
+Epoch 00141: reducing learning rate to 0.00010000000474974513.
+Epoch 00166: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00228: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00238: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00248: reducing learning rate to 1.000000082740371e-08.
+Epoch 00258: reducing learning rate to 1.000000082740371e-09.
+Epoch 00258: early stopping
+
+
+Mean absolute error (MAE):      4.339369
+Mean squared error (MSE):       166.791187
+Root mean squared error (RMSE): 12.914766
+R square (R^2):                 0.999789
+
+Process finished with exit code 0
+
+
+########################################################################
+## v8
+########################################################################
+Fold  0
+(440348, 48)
+
+Epoch 00120: reducing learning rate to 0.00010000000474974513.
+Epoch 00152: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00169: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00186: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00196: reducing learning rate to 1.000000082740371e-08.
+Epoch 00216: reducing learning rate to 1.000000082740371e-09.
+Epoch 00226: reducing learning rate to 1.000000082740371e-10.
+Epoch 00236: reducing learning rate to 1.000000082740371e-11.
+Epoch 00246: reducing learning rate to 1.000000082740371e-12.
+Epoch 00246: early stopping
+
+Mean absolute error (MAE):      5.251665
+Mean squared error (MSE):       168.885658
+Root mean squared error (RMSE): 12.995601
+R square (R^2):                 0.999840
+
+Fold  1
+(440348, 48)
+Epoch 00085: reducing learning rate to 0.00010000000474974513.
+Epoch 00128: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00141: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00164: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00182: reducing learning rate to 1.000000082740371e-08.
+Epoch 00192: reducing learning rate to 1.000000082740371e-09.
+Epoch 00202: reducing learning rate to 1.000000082740371e-10.
+Epoch 00212: reducing learning rate to 1.000000082740371e-11.
+Epoch 00212: early stopping
+
+Mean absolute error (MAE):      6.535099
+Mean squared error (MSE):       185.884196
+Root mean squared error (RMSE): 13.633935
+R square (R^2):                 0.999824
+
+Fold  2
+(440348, 48)
+
+Epoch 00119: reducing learning rate to 0.00010000000474974513.
+Epoch 00146: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00166: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00176: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00194: reducing learning rate to 1.000000082740371e-08.
+Epoch 00204: reducing learning rate to 1.000000082740371e-09.
+Epoch 00214: reducing learning rate to 1.000000082740371e-10.
+Epoch 00224: reducing learning rate to 1.000000082740371e-11.
+Epoch 00224: early stopping
+
+Mean absolute error (MAE):      5.395371
+Mean squared error (MSE):       197.286027
+Root mean squared error (RMSE): 14.045854
+R square (R^2):                 0.999812
+
+Fold  3
+(440348, 48)
+
+Epoch 00185: reducing learning rate to 0.00010000000474974513.
+Epoch 00204: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00237: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00247: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00257: reducing learning rate to 1.000000082740371e-08.
+Epoch 00267: reducing learning rate to 1.000000082740371e-09.
+Epoch 00267: early stopping
+
+Mean absolute error (MAE):      4.526835
+Mean squared error (MSE):       151.916849
+Root mean squared error (RMSE): 12.325455
+R square (R^2):                 0.999855
+
+Process finished with exit code 0
+
+########################################################################
+## v9
+########################################################################
+Fold  0
+(419303, 48)
+
+Epoch 00115: reducing learning rate to 0.00010000000474974513.
+Epoch 00144: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00167: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00177: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00196: reducing learning rate to 1.000000082740371e-08.
+Epoch 00206: reducing learning rate to 1.000000082740371e-09.
+Epoch 00216: reducing learning rate to 1.000000082740371e-10.
+Epoch 00226: reducing learning rate to 1.000000082740371e-11.
+Epoch 00226: early stopping
+
+
+Mean absolute error (MAE):      6.177886
+Mean squared error (MSE):       137.974469
+Root mean squared error (RMSE): 11.746253
+R square (R^2):                 0.999862
+
+Fold  1
+(419303, 48)
+
+Epoch 00100: reducing learning rate to 0.00010000000474974513.
+Epoch 00159: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00185: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00195: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00205: reducing learning rate to 1.000000082740371e-08.
+Epoch 00215: reducing learning rate to 1.000000082740371e-09.
+Epoch 00215: early stopping
+
+Mean absolute error (MAE):      6.403062
+Mean squared error (MSE):       1333.354680
+Root mean squared error (RMSE): 36.515129
+R square (R^2):                 0.998665
+
+Fold  2
+(419303, 48)
+
+Epoch 00132: reducing learning rate to 0.00010000000474974513.
+Epoch 00165: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00195: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00211: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00221: reducing learning rate to 1.000000082740371e-08.
+Epoch 00231: reducing learning rate to 1.000000082740371e-09.
+Epoch 00241: reducing learning rate to 1.000000082740371e-10.
+Epoch 00241: early stopping
+
+
+Mean absolute error (MAE):      4.979223
+Mean squared error (MSE):       291.526844
+Root mean squared error (RMSE): 17.074157
+R square (R^2):                 0.999706
+
+Fold  3
+(419303, 48)
+
+Epoch 00088: reducing learning rate to 0.00010000000474974513.
+Epoch 00121: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00144: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00154: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00164: reducing learning rate to 1.000000082740371e-08.
+Epoch 00174: reducing learning rate to 1.000000082740371e-09.
+Epoch 00174: early stopping
+
+Mean absolute error (MAE):      6.309326
+Mean squared error (MSE):       421.374475
+Root mean squared error (RMSE): 20.527408
+R square (R^2):                 0.999574
+
+Process finished with exit code 0
+
+
+##############################################################
+## v10
+##############################################################
+Fold  0
+Epoch 00086: reducing learning rate to 0.00010000000474974513.
+Epoch 00108: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00128: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00147: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00157: reducing learning rate to 1.000000082740371e-08.
+Epoch 00167: reducing learning rate to 1.000000082740371e-09.
+Epoch 00177: reducing learning rate to 1.000000082740371e-10.
+Epoch 00177: early stopping
+
+Mean absolute error (MAE):      6.287178
+Mean squared error (MSE):       169.515293
+Root mean squared error (RMSE): 13.019804
+R square (R^2):                 0.999827
+
+Fold  1
+(399372, 45)
+
+Epoch 00075: reducing learning rate to 0.00010000000474974513.
+Epoch 00161: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00187: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00208: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00218: reducing learning rate to 1.000000082740371e-08.
+Epoch 00228: reducing learning rate to 1.000000082740371e-09.
+Epoch 00238: reducing learning rate to 1.000000082740371e-10.
+Epoch 00238: early stopping
+
+
+Mean absolute error (MAE):      5.486253
+Mean squared error (MSE):       808.175113
+Root mean squared error (RMSE): 28.428421
+R square (R^2):                 0.999174
+
+Fold  2
+(399372, 45)
+
+Epoch 00116: reducing learning rate to 0.00010000000474974513.
+Epoch 00137: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00149: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00162: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00172: reducing learning rate to 1.000000082740371e-08.
+Epoch 00182: reducing learning rate to 1.000000082740371e-09.
+Epoch 00192: reducing learning rate to 1.000000082740371e-10.
+Epoch 00192: early stopping
+
+Mean absolute error (MAE):      5.306606
+Mean squared error (MSE):       135.854224
+Root mean squared error (RMSE): 11.655652
+R square (R^2):                 0.999860
+
+Fold  3
+(399372, 45)
+
+Epoch 00060: reducing learning rate to 0.00010000000474974513.
+Epoch 00115: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00134: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00155: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00165: reducing learning rate to 1.000000082740371e-08.
+Epoch 00175: reducing learning rate to 1.000000082740371e-09.
+Epoch 00185: reducing learning rate to 1.000000082740371e-10.
+Epoch 00185: early stopping
+
+Mean absolute error (MAE):      6.395182
+Mean squared error (MSE):       180.112472
+Root mean squared error (RMSE): 13.420599
+R square (R^2):                 0.999814
+
+Process finished with exit code 0
+
+##############################################################
+## v11
+##############################################################
+Fold  0
+Epoch 00124: reducing learning rate to 0.00010000000474974513.
+Epoch 00156: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00193: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00212: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00222: reducing learning rate to 1.000000082740371e-08.
+Epoch 00232: reducing learning rate to 1.000000082740371e-09.
+Epoch 00245: reducing learning rate to 1.000000082740371e-10.
+Epoch 00255: reducing learning rate to 1.000000082740371e-11.
+Epoch 00265: reducing learning rate to 1.000000082740371e-12.
+Epoch 00275: reducing learning rate to 1.0000001044244145e-13.
+Epoch 00275: early stopping
+
+Mean absolute error (MAE):      5.109122
+Mean squared error (MSE):       113.422021
+Root mean squared error (RMSE): 10.649978
+R square (R^2):                 0.999871
+
+Fold  1
+(382167, 47)
+Epoch 00129: reducing learning rate to 0.00010000000474974513.
+Epoch 00150: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00179: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00189: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00230: reducing learning rate to 1.000000082740371e-08.
+Epoch 00240: reducing learning rate to 1.000000082740371e-09.
+Epoch 00250: reducing learning rate to 1.000000082740371e-10.
+Epoch 00260: reducing learning rate to 1.000000082740371e-11.
+Epoch 00260: early stopping
+
+Mean absolute error (MAE):      5.488997
+Mean squared error (MSE):       125.847456
+Root mean squared error (RMSE): 11.218175
+R square (R^2):                 0.999857
+
+Fold  2
+(382167, 47)
+
+Epoch 00093: reducing learning rate to 0.00010000000474974513.
+Epoch 00126: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00151: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00161: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00188: reducing learning rate to 1.000000082740371e-08.
+Epoch 00198: reducing learning rate to 1.000000082740371e-09.
+Epoch 00208: reducing learning rate to 1.000000082740371e-10.
+Epoch 00218: reducing learning rate to 1.000000082740371e-11.
+Epoch 00218: early stopping
+
+
+Mean absolute error (MAE):      6.440929
+Mean squared error (MSE):       651.858305
+Root mean squared error (RMSE): 25.531516
+R square (R^2):                 0.999255
+
+Fold  3
+(382167, 47)
+
+Epoch 00069: reducing learning rate to 0.00010000000474974513.
+Epoch 00108: reducing learning rate to 1.0000000474974514e-05.
+Epoch 00122: reducing learning rate to 1.0000000656873453e-06.
+Epoch 00138: reducing learning rate to 1.0000001111620805e-07.
+Epoch 00156: reducing learning rate to 1.000000082740371e-08.
+Epoch 00166: reducing learning rate to 1.000000082740371e-09.
+Epoch 00176: reducing learning rate to 1.000000082740371e-10.
+Epoch 00186: reducing learning rate to 1.000000082740371e-11.
+Epoch 00186: early stopping
+
+
+Mean absolute error (MAE):      7.224303
+Mean squared error (MSE):       226.783935
+Root mean squared error (RMSE): 15.059347
+R square (R^2):                 0.999740
+
+Process finished with exit code 0
+
+##############################################################
+## v12
+##############################################################
+Fold  0
+(362664, 47)
+Epoch 00050: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00088: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00106: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00130: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00140: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00150: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00160: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00160: early stopping
+
+
+Mean absolute error (MAE):      6.940906
+Mean squared error (MSE):       200.172115
+Root mean squared error (RMSE): 14.148220
+R square (R^2):                 0.999698
+
+Fold  1
+(362664, 47)
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00117: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00130: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00140: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00150: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00160: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00160: early stopping
+
+
+Mean absolute error (MAE):      5.833478
+Mean squared error (MSE):       156.520834
+Root mean squared error (RMSE): 12.510829
+R square (R^2):                 0.999763
+
+Fold  2
+(362664, 47)
+Epoch 00077: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00115: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00149: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00164: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00174: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00192: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00202: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00212: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00222: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-12.
+Epoch 00222: early stopping
+
+
+Mean absolute error (MAE):      5.159496
+Mean squared error (MSE):       141.805972
+Root mean squared error (RMSE): 11.908231
+R square (R^2):                 0.999784
+
+Fold  3
+(362664, 47)
+Epoch 00106: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00119: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00149: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00159: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00169: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00179: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00179: early stopping
+
+
+Mean absolute error (MAE):      5.750600
+Mean squared error (MSE):       238.382382
+Root mean squared error (RMSE): 15.439637
+R square (R^2):                 0.999636
+
+Process finished with exit code 0
+
+###############################################################
+v13
+###############################################################
+Fold  0
+(341653, 48)
+
+Epoch 00083: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00122: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00142: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00162: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00179: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00197: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00212: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00222: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00232: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-12.
+Epoch 00242: ReduceLROnPlateau reducing learning rate to 1.0000001044244145e-13.
+Epoch 00242: early stopping
+
+Mean absolute error (MAE):      5.005152
+Mean squared error (MSE):       147.330554
+Root mean squared error (RMSE): 12.137980
+R square (R^2):                 0.999726
+
+Fold  1
+(341653, 48)
+Epoch 00087: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00138: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00155: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00180: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00190: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00207: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00217: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00227: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00237: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-12.
+Epoch 00237: early stopping
+
+Mean absolute error (MAE):      5.077923
+Mean squared error (MSE):       128.801322
+Root mean squared error (RMSE): 11.349067
+R square (R^2):                 0.999760
+
+Fold  2
+(341653, 48)
+
+Epoch 00072: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00112: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00127: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00141: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00151: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00161: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00171: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00171: early stopping
+
+Mean absolute error (MAE):      4.892745
+Mean squared error (MSE):       203.173890
+Root mean squared error (RMSE): 14.253908
+R square (R^2):                 0.999618
+
+Fold  3
+(341653, 48)
+Epoch 00106: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00135: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00151: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00161: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00174: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00184: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00194: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00204: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00204: early stopping
+
+Mean absolute error (MAE):      4.421621
+Mean squared error (MSE):       140.125982
+Root mean squared error (RMSE): 11.837482
+R square (R^2):                 0.999736
+
+Process finished with exit code 0
+
+###############################################
+v14
+###############################################
+Epoch 00121: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00174: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00194: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00208: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00220: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00230: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00240: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00250: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00250: early stopping
+
+
+Mean absolute error (MAE):      3.873507
+Mean squared error (MSE):       87.475708
+Root mean squared error (RMSE): 9.352845
+R square (R^2):                 0.999828
+
+Fold  1
+(326118, 49)
+
+Epoch 00121: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00136: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00157: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00167: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00177: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00187: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00187: early stopping
+
+Mean absolute error (MAE):      4.373200
+Mean squared error (MSE):       93.941952
+Root mean squared error (RMSE): 9.692366
+R square (R^2):                 0.999815
+
+Fold  2
+(326118, 49)
+
+Epoch 00072: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00105: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00121: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00147: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00163: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00173: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00183: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00200: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00210: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-12.
+Epoch 00220: ReduceLROnPlateau reducing learning rate to 1.0000001044244145e-13.
+Epoch 00230: ReduceLROnPlateau reducing learning rate to 1.0000001179769417e-14.
+Epoch 00230: early stopping
+
+
+Mean absolute error (MAE):      5.646536
+Mean squared error (MSE):       458.306473
+Root mean squared error (RMSE): 21.408094
+R square (R^2):                 0.999093
+
+Fold  3
+(326118, 49)
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00096: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00111: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00129: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00142: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00152: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00162: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00177: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00187: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-12.
+Epoch 00197: ReduceLROnPlateau reducing learning rate to 1.0000001044244145e-13.
+Epoch 00207: ReduceLROnPlateau reducing learning rate to 1.0000001179769417e-14.
+Epoch 00207: early stopping
+
+
+Mean absolute error (MAE):      6.223994
+Mean squared error (MSE):       279.911346
+Root mean squared error (RMSE): 16.730551
+R square (R^2):                 0.999445
+
+Process finished with exit code 0
+
+###############################################################
+v15
+###############################################################
+Fold  0
+(313122, 48)
+Epoch 00091: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00149: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00168: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00178: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00192: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00202: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00212: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00222: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00222: early stopping
+
+Mean absolute error (MAE):      4.747414
+Mean squared error (MSE):       201.374886
+Root mean squared error (RMSE): 14.190662
+R square (R^2):                 0.999598
+
+Fold  1
+(313122, 48)
+Epoch 00065: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00138: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00153: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00175: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00186: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00196: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00206: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00216: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00216: early stopping
+
+Mean absolute error (MAE):      4.582010
+Mean squared error (MSE):       103.074780
+Root mean squared error (RMSE): 10.152575
+R square (R^2):                 0.999794
+
+Fold  2
+(313122, 48)
+Epoch 00063: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00087: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00107: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00117: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00132: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00142: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00152: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-10.
+Epoch 00162: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-11.
+Epoch 00162: early stopping
+
+Mean absolute error (MAE):      5.260694
+Mean squared error (MSE):       272.939896
+Root mean squared error (RMSE): 16.520893
+R square (R^2):                 0.999449
+
+Fold  3
+(313122, 48)
+Epoch 00124: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 00141: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 00174: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 00184: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 00194: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 00204: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-09.
+Epoch 00204: early stopping
+
+Mean absolute error (MAE):      4.211087
+Mean squared error (MSE):       240.052824
+Root mean squared error (RMSE): 15.493638
+R square (R^2):                 0.999515
+
+Process finished with exit code 0
+
+
+
