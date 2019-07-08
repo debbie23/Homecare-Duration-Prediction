@@ -1,4 +1,4 @@
-# home-care duration prediction by machine learning methods
+# Home-care duration prediction by machine learning methods
 
 Data are provided by Buurtzorg company, which is one of the biggest home-care organization in Netherlands. Data are based on 2017 year. 
 
